@@ -1,0 +1,12 @@
+flarum-markdown:
+  forum:
+    composer:
+      bold_tooltip: Aggiungi testo grassetto
+      code_tooltip: Inserisci codice
+      header_tooltip: Inserisci intestazione
+      image_tooltip: Aggiungi Immagine
+      italic_tooltip: Aggiungi testo corsivo
+      link_tooltip: Aggiungi link
+      ordered_list_tooltip: Aggiungi lista numerata
+      quote_tooltip: Inserisci citazione
+      unordered_list_tooltip: Aggiungi un elenco puntato

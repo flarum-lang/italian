@@ -1,0 +1,24 @@
+flarum-nicknames:
+  admin:
+    permissions:
+      edit_own_nickname_label: Può modificare il proprio nickname
+    settings:
+      max_label: Lunghezza massima del nickname
+      min_label: Lunghezza minima del nickname
+      regex_label: Espressione regolare per la convalida
+      unique_label: Hai bisogno di soprannomi univoci?
+    wrong_driver: È necessario selezionare "nickname" come driver impostato nella <a><strong>pagina di base</strong></a> affinché questa estensione abbia effetto.
+  api:
+    invalid_nickname_message: Questo nickname non è valido. Si prega di contattare l'amministratore del forum per ulteriori informazioni sulle regole dei nickname.
+  forum:
+    change_nickname:
+      submit_button: => core.ref.save_changes
+      title:  => flarum-nicknames.ref.change_nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nickname
+    settings:
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
+
+  ref:
+    change_nickname: Cambia Nickname

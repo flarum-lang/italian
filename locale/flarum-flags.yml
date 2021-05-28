@@ -1,0 +1,64 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: Segnala Post
+      view_flags_label: Vedi post segnalati
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      flag_own_posts_label: Consenti agli utenti di segnalare i propri post
+      guidelines_url_label: Linee Guida Community
+      title: Impostazioni di Flags
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: Grazie per aver segnalato questo post. I nostri moderatori lo esamineranno.
+      dismiss_button: => core.ref.okay
+      reason_details_placeholder: Dettagli aggiuntivi (opzionale)
+      reason_inappropriate_label: Non appropriato
+      reason_inappropriate_text: "Questo post è offensivo, offensivo o viola le nostre <a>linee guida della community</a>."
+      reason_missing_message: Fornisci alcuni dettagli per i nostri moderatori.
+      reason_off_topic_label: "Off-topic"
+      reason_off_topic_text: Questo post non è rilevante per la discussione in corso e dovrebbe essere spostato altrove.
+      reason_other_label: Altro (specificare)
+      reason_spam_label: Spam
+      reason_spam_text: Questo post è spam.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: Nessuna Segnalazione
+      item_text: "{username} in <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: Ignora flag
+      flagged_by_text: "Segnalato da {username}"
+      flagged_by_with_reason_text: "Segnalato da {username} perchè {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: Segnala
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: Segnala Post
+    flagged_posts: Post Segnalati

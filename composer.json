@@ -1,0 +1,44 @@
+{
+    "name": "justoverclock/lang-ita-extended",
+    "description": "Pacchetto in lingua Italiana per Flarum e relative estensioni.",
+    "type": "flarum-extension",
+    "keywords": ["extension", "flarum", "italian", "locale", "translation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "homepage": "https://flarum.it"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/justoverclockl/flarum-italian-ext/issues",
+        "source": "https://github.com/justoverclockl/flarum-italian-ext"
+    },
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.10.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Italiano",
+            "category": "language",
+            "info": {
+                "website": "https://flarum.it",
+                "support": "https://github.com/justoverclockl/flarum-italian-ext/issues"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ita",
+            "title": "Italiano"
+        }
+    }
+}
