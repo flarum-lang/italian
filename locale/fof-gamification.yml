@@ -8,8 +8,6 @@ core:
       hot_button: Tendenza
 fof-gamification:
   admin:
-    nav:
-      desc: 'Gamification per la community del tuo forum'
     page:
       convert:
         button: 'Converti mi piace in voti positivi'
@@ -54,7 +52,6 @@ fof-gamification:
   forum:
     mod_item: 'Mostra votanti'
     modal:
-      downvotes_label: 'Voti negativi:'
       title: Votanti
       upvotes_label: 'Voti positivi:'
     nav:

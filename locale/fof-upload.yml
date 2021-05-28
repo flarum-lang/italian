@@ -9,7 +9,6 @@ fof-upload:
     help_texts:
       client_extension: "Per impostazione predefinita, il caricamento sceglierà un'estensione di file sicura in base al tipo MIME.\nPer alcuni tipi di file basati su ZIP o dati binari, ciò può comportare l'utilizzo di estensioni generiche invece di quelle previste.\nQui puoi inserire un elenco separato da virgole di estensioni di file che verranno mantenute alla lettera.\n"
       composer_buttons: "Per impostazione predefinita, sono visibili sia il pulsante del gestore multimediale che il pulsante di caricamento. Puoi anche scegliere di visualizzare un solo pulsante.\n"
-      description: "Imposta i servizi di caricamento e le preferenze.\n"
       disable-download-logging: "Disattiva la registrazione di ogni download effettuato dagli utenti del tuo forum. Lasciandolo attivo ti permette di visualizzare il numero di download e altre metriche in futuro.\n"
       disable-hotlink-protection: "La protezione da hotlink impedisce l'apertura dei dowload da altri siti. Il metodo attuale richiede un token csrf e id del post.\n"
       download_templates: "I modelli di scaricamento servono per cambiare il modo di come i file vengono mostrati sul tuo forum, es come le anteprime e bottoni. Attualmente sono disponibili:\n"

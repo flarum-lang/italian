@@ -32,7 +32,5 @@ fof-user-directory:
       newest: 'Dal più recente'
       not_specified: 'Ordine di default di Flarum'
       oldest: 'Dal meno recente'
-      seen_oldest: 'Meno recenti online'
-      seen_recent: 'Più recenti online'
       username_az: 'Alfabetico (a-z)'
       username_za: 'Alfabetico (z-a)'

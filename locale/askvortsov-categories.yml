@@ -30,8 +30,6 @@ askvortsov-categories:
       categories_link: Categorie
     last_discussion_widget:
       no_discussions: 'Ancora Nessuna Discussione'
-    meta:
-      categories_title: Categorie
     stat-widgets:
       discussion_label: Discussioni
       post_label: Post
