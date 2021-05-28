@@ -8,13 +8,13 @@ un vasto assortimento di estensioni di terze parti tradotte e pronte all'uso!
 ## Installazione
 
 ```bash
-composer require justoverclock/lang-ita-extended
+composer require flarum-lang/italian
 ```
 
 ## Aggiornamento
 
 ```bash
-composer update justoverclock/lang-ita-extended
+composer update flarum-lang/italian
 php flarum cache:clear
 ```
 [![Latest Stable Version](https://poser.pugx.org/justoverclock/lang-ita-extended/v)](//packagist.org/packages/justoverclock/lang-ita-extended) [![Total Downloads](https://poser.pugx.org/justoverclock/lang-ita-extended/downloads)](//packagist.org/packages/justoverclock/lang-ita-extended) [![License](https://poser.pugx.org/justoverclock/lang-ita-extended/license)](//packagist.org/packages/justoverclock/lang-ita-extended)
