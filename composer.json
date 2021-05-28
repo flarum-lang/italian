@@ -1,5 +1,5 @@
 {
-    "name": "justoverclock/lang-ita-extended",
+    "name": "justoverclock/flarum-lang-italian",
     "description": "Pacchetto in lingua Italiana per Flarum e relative estensioni.",
     "type": "flarum-extension",
     "keywords": ["extension", "flarum", "italian", "locale", "translation"],
@@ -12,8 +12,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/justoverclockl/flarum-italian-ext/issues",
-        "source": "https://github.com/justoverclockl/flarum-italian-ext"
+        "issues": "https://github.com/flarum-lang-italian/issues",
+        "source": "https://github.com/flarum-lang-italian"
     },
     "require": {
         "flarum/core": "^1.0.0"
@@ -27,7 +27,7 @@
             "category": "language",
             "info": {
                 "website": "https://flarum.it",
-                "support": "https://github.com/justoverclockl/flarum-italian-ext/issues"
+                "support": "https://github.com/flarum-lang-italian/issues"
             },
             "icon": {
                 "image": "icon.svg",
