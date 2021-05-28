@@ -201,7 +201,7 @@ core:
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
       allow_indefinitely_button: Indefinitamente
-      allow_some_minutes_button: "{count, plural, one {Per # minuto} other {Per # minutei}}"
+      allow_some_minutes_button: "{count, plural, one {Per # minuto} other {Per # minuti}}"
       allow_ten_minutes_button: Per 10 minuti
       allow_until_reply_button: Fino alla prossima risposta
       everyone_button: Chiunque
