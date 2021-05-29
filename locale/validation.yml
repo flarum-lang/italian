@@ -90,6 +90,7 @@ validation:
   password: 'Il campo :attribute non è corretto.'
   present: 'Il campo :attribute deve essere presente.'
   prohibited: 'Il campo :attribute è proibito.'
+  prohibited_if: 'Il campo :attribute è proibito quanto :other è :value.'
   regex: 'Il formato del campo :attribute non è valido.'
   required: 'Il campo :attribute è richiesto.'
   required_if: 'Il campo :attribute è richiesto quando :other è :value.'
