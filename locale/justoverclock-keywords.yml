@@ -9,7 +9,7 @@ flarum-ext-keywords:
     removedef: 'Cancella definizione'
     word: Parola
   forum:
-    pagetitle: 'Pagina Glossario'
+    pagetitle: 'Glossario dei Termini'
     searchtext: 'Digita per cercare nel glossario...'
     tagline: 'Vuoi saperne di più sui termini utilizzati in questo sito? Consulta i termini nel nostro glossario'
     title: Glossario
