@@ -18,6 +18,7 @@ malago-achievements:
       description_placeholder: 'Descrizione Traguardo'
       height_label: 'Altezza Immagine'
       height_placeholder: '32'
+      hidden_label: 'Nascondi dalla lista traguardi'
       image_label: 'URL immagine o codice icona (es. fas fa-star)'
       image_placeholder: 'URL Immagine Traguardo'
       name_label: Nome
@@ -28,6 +29,17 @@ malago-achievements:
       row_placeholder: '0'
       submit_button: '=> core.ref.save_changes'
       title: 'Crea Traguardo'
+      tooltip:
+        comments: 'Numero minimo di risposte ricevute in una discussione (es. 10) o range inclusivo (es. 10,19)'
+        contains: 'Parola o parole e numero minimo di post che la contengono (es. pollo,10) o intervallo inclusivo (es. pollo,10,19)'
+        discussions: 'Numero minimo di discussioni create (es. 10) o range inclusivo (es. 10,19)'
+        edits: 'Numero minimo di post modificati (es. 10) o range inclusivo (es. 10,19)'
+        likes: 'Numero minimo di Mi piace dati (es. 10) o range inclusivo (es. 10,19)'
+        meanwords: 'Parola da cercare e numero minimo di presenze medie (es. pollo,10) o range inclusivo (es. pollo,10,19)'
+        posts: 'Numero minimo di post (es 10) o inclusivo (es 10,19)'
+        selflikes: 'Numero minimo di like ricevuti (es. 10) o range inclusivo (es. 10,19)'
+        tagposts: 'Slug del tag da cercare e numero minimo di post (es. off-topic,10) o range inclusivo (es. off-topic,10,19)'
+        years: 'Numero minimo di anni registrati (es. 10) o range inclusivo (es. 10,19)'
       username: 'Nome Utente'
       username_placeholder: 'Nome Utente'
       variable:
@@ -54,6 +66,11 @@ malago-achievements:
       list_heading: Traguardi
   forum:
     achievement_points: Punti
+    achievement_total_points: Totali
+    hidden_achievements: 'Traguardi nascosti'
+    list_heading: Traguardi
     new_achievement_close: 'Ricevi Premio!'
     new_achievement_name: Traguardo
     new_achievement_title: 'Nuovo traguardo!'
+    other_achievements: 'Altri Traguardi'
+    your_achievements: 'I tuoi traguardi'
