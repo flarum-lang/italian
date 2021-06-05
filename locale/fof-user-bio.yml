@@ -12,3 +12,4 @@ fof-user-bio:
       bioLimit: 'Limite caratteri bio'
   forum:
     userbioPlaceholder: 'Scrivici qualcosa di te'
+    userbioPlaceholderOtherUser: 'Qualche parola riguardo {username}'
