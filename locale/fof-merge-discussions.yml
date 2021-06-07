@@ -23,6 +23,6 @@ fof-merge-discussions:
       type_target_help_text: 'Scegli discussione(i) da unire dentro <b>{title}</b>.'
       type_target_label: 'Unisci qui'
     post:
-      merged: 'Unito <b>{count}</b> post da {titles}.|Uniti <b>{count}</b> post da {titles}.'
+      merged: '{count, plural, one {Unito<b>#</b> post da {titles}.} other {Uniti<b>#</b> post da {titles}.}}'
   ref:
     merge: Unisci

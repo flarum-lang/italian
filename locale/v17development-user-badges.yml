@@ -4,6 +4,23 @@
 
 v17development-flarum-badges:
   admin:
+    auto_moderator:
+      action_drivers:
+        badge_id: 'ID Badge'
+        give_badge: 'Assegna badge'
+        remove_badge: 'Rimuovi badge'
+      badge_selector:
+        loading_badges: 'Caricamento badge'
+        placeholder: 'Scegli badge'
+      metric_drivers:
+        badges_received: 'Badge ricevuti'
+      not_installed:
+        content: 'Questa estensione offre più funzionalità quando <a>Auto Moderatore</a> è installato e attivato. Quando installi questa estensione, gli utenti possono essere automaticamente premiati con badge senza l''intervento di un amministratore o moderatore!'
+        dismiss: 'Non mostrare ancora'
+        install: Installa
+        title: 'Premia automaticamente gli utenti con badge'
+      requirement_drivers:
+        has_badge: 'Ha un badge'
     badge:
       description: 'Descrizione Badge'
       icon: 'Icona Badge'
@@ -18,7 +35,7 @@ v17development-flarum-badges:
     confirm_dialog:
       'no': 'No'
       title: Conferma
-      'yes': 'Yes'
+      'yes': Si
     confirm_messages:
       delete_badge: 'Sei sicuro di voler rimuovere questo badge? Viene rimosso da tutti gli utenti ed è irreversibile.'
       delete_category: 'Sei sicuro di voler rimuovere questa categoria? Se sono presenti badge in questa categoria, verranno contrassegnati come "senza categoria".'
@@ -40,7 +57,7 @@ v17development-flarum-badges:
       badges: Badge
       category: 'Categoria Badge'
       description: 'Descrizione Badge'
-      earned_count: '<b>{count} utente</b> ha guadagnato questo badge|<b>{count} utenti</b> hanno guadagnato questo badge'
+      earned_count: '{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}'
       earned_on: 'Badge guadagnato il'
       earning_reason: 'Motivo assegnazione badge'
       name: 'Nome badge'
@@ -53,5 +70,7 @@ v17development-flarum-badges:
       remove_badge: 'Rimuovi badge da utente'
       remove_badge_confirm: 'Sei sicuro di voler rimuovere questo badge da questo utente?'
     select_badge: 'Scegli badge'
+    uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Aggiorna badge'
     user_has_badge: 'L''utente ha già questo badge.'
+    user_no_badges: 'Questo utente non ha ancora alcun badge.'
