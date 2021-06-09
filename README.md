@@ -76,4 +76,4 @@ php flarum cache:clear
 - Nearata Cakeday
 - malago Flarum Achievements
 
-
+## E moltre altre estensioni sincronizzate tramite Weblate :)
