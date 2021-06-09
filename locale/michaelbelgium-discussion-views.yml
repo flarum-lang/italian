@@ -17,13 +17,13 @@ michaelbelgium-discussion-views:
       max_viewcount_label: 'Numero massimo nella lista delle ultime visualizzazioni'
       show_filter_label: 'Abilita campi di ordinamento Popolare/Meno Popolare'
       show_viewlist_label: 'Abilita lista ultime visualizzazioni'
-      title: 'Impostazioni Discussion views'
+      title: 'Impostazioni visite Discussione'
       track_unique_label: 'Traccia visualizzazioni uniche'
   forum:
     discussion_controls:
       resetviews_button: 'Resetta Visite'
     modal_resetviews:
-      label: 'Questo comando rimuoverà {count} visita da questa discussione. Continuare?|Questo comando rimuoverà {count} visite da questa discussione. Continuare?'
+      label: '{count, plural, one {Questo comando rimuoverà {count} visita dalla discussione. Continuare?} other {Questo comando rimuoverà {count} visite dalla discussione. Continuare?}}'
       submit_button: 'Si, rimuovi tutto'
       title: 'Reimposta conteggio visualizzazioni'
     viewlist:
