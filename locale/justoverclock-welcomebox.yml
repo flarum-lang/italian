@@ -6,8 +6,13 @@ flarum-ext-welcomebox:
   admin:
     enablepostbox: 'Abilita Welcome Box Ospiti'
   forum:
+    SettingsLink: Impostazioni
     discussion: '=> core.forum.user.discussions_link'
+    goToProfile: Profilo
     notregistered: 'Attualmente non sei registrato al forum.'
-    npost: '=> core.forum.user.posts_link'
+    npost: Messaggi
+    tooltipDisclist: 'Le mie Discussioni'
+    tooltipMentions: Menzioni
+    tooltipProfile: Profilo
     wback: 'Bentornato,'
     welcomeguest: 'Benvenuto Ospite'

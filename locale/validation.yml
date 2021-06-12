@@ -41,7 +41,7 @@ validation:
   email: ':attribute non è valido.'
   ends_with: ':attribute deve finire con uno dei seguenti valori: :values.'
   exists: ':attribute selezionato non è valido.'
-  file: ':attribute deve essere un file."'
+  file: ':attribute deve essere un file.'
   filled: 'Il campo :attribute è richiesto.'
   gt:
     array: ':attribute deve contenere più di :value elementi.'
@@ -91,6 +91,7 @@ validation:
   present: 'Il campo :attribute deve essere presente.'
   prohibited: 'Il campo :attribute è proibito.'
   prohibited_if: 'Il campo :attribute è proibito quanto :other è :value.'
+  prohibited_unless: 'Il campo :attributo è vietato a meno che :other non sia in :values.'
   regex: 'Il formato del campo :attribute non è valido.'
   required: 'Il campo :attribute è richiesto.'
   required_if: 'Il campo :attribute è richiesto quando :other è :value.'

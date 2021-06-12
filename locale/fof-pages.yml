@@ -14,8 +14,9 @@ fof-pages:
       delete_page_confirmation: 'Sei sicuro di voler cancellare questa pagina?'
       hidden_label: 'Salva come bozza'
       html_label: 'Abilita HTML'
-      restricted_label: 'Limita accesso (configura chi può accedere nel tab Permessi)'
+      restricted_label: 'Accesso riservato (configura chi può accedere nel tab Permessi)'
       set_as_home_page_confirmation: 'Sei sicuro di voler impostare questa pagina come tua home page?'
+      set_as_home_page_done: 'Home page aggiornata'
       slug_label: '=> fof-pages.ref.slug'
       slug_placeholder: '=> fof-pages.ref.slug'
       submit_button: '=> core.ref.save_changes'
@@ -30,7 +31,7 @@ fof-pages:
       empty_text: 'Sembra che non ci siano pagine qui.'
       title: '=> fof-pages.ref.title'
     permissions:
-      restricted: 'Mostra pagine con restrizioni'
+      restricted: 'Mostra pagine riservate'
   ref:
     content: Contenuto
     create_page: 'Crea pagina'

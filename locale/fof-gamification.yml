@@ -16,7 +16,7 @@ fof-gamification:
         help: 'Converti i mi piace precedenti da flarum-ext-likes in voti positivi, e calcola la tendenza per tutte le discussioni attuali.'
       rankings:
         blocked:
-          help: 'Questi utenti non verranno mostrati nella classifica. I nomi utente doveno essere separati da una virgola seguita da uno spazio.'
+          help: 'Questi utenti non verranno mostrati nella classifica. I nomi utente devono essere separati da una virgola seguita da uno spazio.'
           placeholder: 'CDK2020, Ralkage, AngelAvila'
           title: 'Ignora utenti'
         custom_image_1: 'Immagine 1° posizione'
@@ -35,6 +35,7 @@ fof-gamification:
         title: Grado
       save_settings: 'Salva impostazioni'
       votes:
+        alternate_layout: 'Usa layout alternativo per mostrare e/o fare upvotes/downvotes'
         auto_upvote: 'Dai un voto positivo automatico quando i messaggi vengono postati'
         color_holder: '#ffffff'
         discussion_page: 'Mostra i voti totali del messaggio originale nella lista delle discussioni'

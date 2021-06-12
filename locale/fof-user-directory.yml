@@ -9,6 +9,7 @@ fof-user-directory:
     settings:
       default-sort: 'Ordine di Default'
       link: 'Aggiungi link in homepage per gli utenti col permesso di vedere l''elenco'
+      use-small-cards: 'Usa riquadri piccoli'
   forum:
     header:
       back_to_user_directory_tooltip: 'Torna all''Elenco Utenti'

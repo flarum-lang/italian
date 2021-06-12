@@ -30,9 +30,9 @@ flarum-tags:
     tag_settings:
       range_separator_text: ' a '
       required_primary_heading: 'Numero richiesto di etichette primarie'
-      required_primary_text: 'Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione'
+      required_primary_text: 'Inserisci il numero minimo e massimo di etichette principali che possono essere applicate ad una discussione.'
       required_secondary_heading: 'Numero richiesto di etichette secondarie'
-      required_secondary_text: 'Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione'
+      required_secondary_text: 'Inserisci il numero minimo e massimo di etichette secondarie che possono essere applicate ad una discussione.'
       title: 'Impostazioni Etichetta'
     tags:
       about_tags_text: 'Le etichette vengono usate per categorizzare le discussioni. Le etichette primarie sono come le categorie tradizionali dei forum: possono essere disposte in una gerarchia a due livelli. Le etichette secondarie non hanno gerarchia o ordine, e sono utili per micro-categorizzare.'
