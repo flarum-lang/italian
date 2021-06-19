@@ -17,7 +17,7 @@ composer require flarum-lang/italian
 composer update flarum-lang/italian
 php flarum cache:clear
 ```
-[![Latest Stable Version](https://poser.pugx.org/flarum-lang/italian/v)](//packagist.org/packages/flarum-lang/italian) [![Total Downloads](https://poser.pugx.org/justoverclock/lang-ita-extended/downloads)](//packagist.org/packages/justoverclock/lang-ita-extended) [![License](https://poser.pugx.org/justoverclock/lang-ita-extended/license)](//packagist.org/packages/justoverclock/lang-ita-extended)
+[![Latest Stable Version](https://poser.pugx.org/flarum-lang/italian/v)](//packagist.org/packages/flarum-lang/italian) [![Total Downloads](https://poser.pugx.org/flarum-lang/italian/downloads)](https://packagist.org/packages/flarum-lang/italian) [![License](https://poser.pugx.org/justoverclock/lang-ita-extended/license)](//packagist.org/packages/justoverclock/lang-ita-extended)
 
 ## Lista componenti tradotti  <img src="https://weblate.rob006.net/widgets/flarum/it/core/svg-badge.svg" alt="Stato della traduzione" />
 
