@@ -36,15 +36,26 @@ davwheat:
               text: 'Testo link'
               url: 'Url link'
             placeholders:
+              icon: 'fas fa-link'
               text: 'Il mio sito'
+              url: 'https://flarum.it'
             tooltips:
               icon_preview: 'Anteprima icona'
               move_down: 'Sposta giù'
               move_up: 'Sposta su'
         new_link_modal:
+          labels:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.icon'
+            internal: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.internal'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.header.url'
+          placeholders:
+            icon: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.icon'
+            text: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.text'
+            url: '=> davwheat.custom_sidenav_links.admin.settings_page.link_table.table.placeholders.url'
           submit_btn:
             add: 'Aggiungi link'
             fix_url: 'URL non valido'
             invalid_form: 'Riempi tutti i campi'
-            loading: Aggiungo
+            loading: 'Aggiunta del link'
           title: 'Aggiungi nuovo link'

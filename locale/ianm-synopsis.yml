@@ -15,3 +15,4 @@ ianm-synopsis:
       settings:
         show-summaries: 'Mostra un riepilogo per ogni discussione (Desktop/Tablet)'
         show-summaries-mobile: 'Mostra un riepilogo per ogni discussione (Mobile)'
+        summaries-heading: Synopsis
