@@ -12,6 +12,9 @@ askvortsov-categories:
       nav: Navigazione
       parent_display: 'Mostra Categoria Principale'
       performance: Prestazioni
+    help:
+      full_page_desktop: 'Il menu nav della barra laterale dovrebbe essere ridotto a una riga (come nella tradizionale pagina dei tag)? Questo nasconderà anche i widget (come Friends of Flarum Forum Statistics) dalla navbar della pagina delle categorie.'
+      small_forum_optimized: 'Questo darà un conteggio delle discussioni/post più accurato, ma rallenterà drammaticamente i forum medi e grandi.'
     labels:
       child_bare_icon: 'Le icone delle sottocategorie devono essere mostrate senza sfondo circolare?'
       compact_mobile_mode: 'Modalità mobile compatta'
@@ -24,6 +27,9 @@ askvortsov-categories:
       small_forum_optimized: 'Ottimizza per piccoli forum. Questa funzione fornirà conteggi discussioni/post più accurati, ma rallenterà molto i forum di medie e grandi dimensioni.'
     title: 'Impostazioni Categorie'
   forum:
+    all_categories:
+      meta_description_text: 'Tutte le categorie'
+      meta_title_text: '=> askvortsov-categories.ref.categories'
     header:
       back_to_categories_tooltip: 'Torna alle Categorie'
     index:
@@ -33,3 +39,5 @@ askvortsov-categories:
     stat-widgets:
       discussion_label: Discussioni
       post_label: Post
+  ref:
+    categories: Categorie
