@@ -24,19 +24,26 @@ fof-drafts:
     dropdown:
       alert: 'Sei sicuro di voler cancellare la bozza?'
       delete_all_alert: 'Sei sicuro di voler cancellare tutte le tue bozze?'
+      delete_all_button: 'Elimina tutte le bozze'
       delete_button: 'Cancella Bozza'
       empty_text: 'Non hai salvato alcuna bozza'
       schedule_button: 'Pianifica Bozza'
+      scheduled_icon_tooltip: 'Pianificata per {datetime}'
+      scheduled_icon_tooltip_formatter: 'L [at] LT'
       title: Bozze
       tooltip: '=> fof-drafts.forum.dropdown.title'
     schedule_draft_modal:
       reschedule_button: Ripianifica
       schedule_button: Pianifica
-      scheduled_error: 'Impossibile postare: {error}.'
-      scheduled_text: 'Pianificato per {datetime}.'
+      schedule_time_preview: 'Questa bozza verrà pubblicata automaticamente il <b>{datetime}</b>.'
+      schedule_time_preview_formatter: LLLL
+      schedule_time_preview_invalid: 'Data e/o ora non valide'
+      scheduled_error: 'Impossibile pianificare bozza: {error}.'
+      scheduled_text: 'Pianificato per essere postato il {datetime}.'
       text: 'Pianifica la tua bozza per postarla automaticamente in un secondo momento!'
       title: 'Pianifica Bozza'
       unschedule_button: 'Annulla Pianificazione'
+      unschedule_warning: 'Sei sicuro di voler annullare la programmazione di questa bozza?'
     user:
       settings:
         draft_autosave_enable: 'Abilita Autosalvataggio Bozze?'
@@ -44,3 +51,5 @@ fof-drafts:
         draft_autosave_interval_invalid: 'L''intervallo deve essere un numero intero maggiore di 4.'
         draft_autosave_interval_label: 'Invervallo Autosalvataggio (secondi)'
         drafts_heading: Bozze
+  ref:
+    schedule_draft: 'Bozze programmate'

@@ -28,6 +28,8 @@ v17development-flarum-badges:
       visible: Visibile
       visible_description: 'Abilita questo badge. Quando disabilitato, il badge non sarà visibile.'
     badge_category:
+      blockview: 'Visione a blocchi'
+      blockview_description: 'Mostra i badge di categoria in blocco nella panoramica dei badge. Quando disabilitato, tutti i badge verranno visualizzati in una tabella.'
       description: 'Descrizione categoria'
       enabled: Abilitata
       enabled_description: 'Abilita questa categoria. Quando è disabilitata, tutti i badge saranno disabilitati e la categoria sarà nascosta.'
@@ -44,6 +46,7 @@ v17development-flarum-badges:
     new_badge: 'Nuovo badge'
     nothing_here_yet: 'Non hai ancora creato badge o categorie.'
     permissions:
+      badge_detail_users: 'Può vedere gli utenti nella pagina dei badge'
       give_badge: 'Assegna badge a utente'
       take_badge: 'Prendi badge da utente'
     uncategorized: 'Senza Categoria'
@@ -54,14 +57,17 @@ v17development-flarum-badges:
     all_users: 'Guarda tutti gli utenti'
     badge:
       badge: Badge
+      badge_details: 'Dettagli Badge'
       badges: Badge
       category: 'Categoria Badge'
       description: 'Descrizione Badge'
+      earned_by_count: '{count, plural, one {Guadagnato da <b># utente</b>} other {Guadagnato da <b># utenti</b>}}'
       earned_count: '{count, plural, one {<b># utente</b> ha guadagnato questo badge} other {<b># utenti</b> hanno guadagnato questo badge}}'
       earned_on: 'Badge guadagnato il'
       earning_reason: 'Motivo assegnazione badge'
       name: 'Nome badge'
       no_earning_reason: 'Nessun motivo impostato'
+      received_on: 'Ricevuto il {date}'
       update_earning_reason: 'Aggiorna motivo assegnazione'
     badge_information: 'Informazioni Badge'
     give_badge: 'Dai badge'
@@ -69,6 +75,10 @@ v17development-flarum-badges:
       give_badge: 'Dai badge'
       remove_badge: 'Rimuovi badge da utente'
       remove_badge_confirm: 'Sei sicuro di voler rimuovere questo badge da questo utente?'
+    no_received: 'Nessun utente ha ottenuto questo badge.'
+    notification:
+      settings: 'Ho ricevuto un badge'
+      title: 'Hai ricevuto un nuovo badge'
     select_badge: 'Scegli badge'
     uncategorized: '=> v17development-flarum-badges.admin.uncategorized'
     update_badge: 'Aggiorna badge'
