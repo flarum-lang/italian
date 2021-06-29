@@ -42,12 +42,17 @@ fof-byobu:
     input:
       search_recipients: 'Cerca destinatario digitando i primi tre caratteri ...'
     labels:
-      recipients: '{count} Destinatario|{count} Destinatari'
+      recipients: '{count, plural, one {{count} Destinatario} other {{count} Destinatari}}'
       user_deleted: '-rimosso-'
     modal:
       help:
         add_recipients: 'Questa discussione sarà visibile solo agli utenti che scegli qui. È richiesto almeno 1 destinatario (diverso da te).'
+        click_user_to_remove_tooltip: 'Fare clic per rimuovere'
+        selected_users: 'Fare clic sul nome di un utente per rimuoverlo.'
         update_recipients: 'Questa discussione sarà visibile solo agli utenti che scegli qui.'
+      labels:
+        search_field: 'Cerca utente'
+        selected_users: 'Utenti selezionati'
       titles:
         add_recipients: 'Aggiungi destinatari alla tua discussione'
         update_recipients: 'Aggiorna destinatari di {title}'
