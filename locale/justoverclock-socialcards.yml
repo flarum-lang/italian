@@ -6,6 +6,8 @@ flarum-ext-socialcards:
   admin:
     settings:
       fblink: 'Link Facebook'
+      ghlink: 'Link GitHub'
+      showGithub: 'Abilita GitHub'
       showfacebook: 'Abilita Facebook'
       showtwitter: 'Abilita Twitter'
       showyoutube: 'Abilita Youtube'

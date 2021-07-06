@@ -31,7 +31,7 @@ v17development-flarum-blog:
       require_review_label: 'I post del blog richiedono una revisione'
       require_review_text: 'Quando si pubblica un articolo, non sarà visibile direttamente e dovrà essere rivisto da un moderatore.'
       select_categories_button: 'Seleziona le categorie del blog'
-      selected_category_count: 'Hai {count} categoria selezionata|Hai {count} categorie selezionate'
+      selected_category_count: '{count, plural, one {Hai # categoria selezionata} other {Hai # categorie selezionate}}'
       show_tag_hierarchy_label: 'Mostra la gerarchia dei tag'
       show_tag_hierarchy_text: 'Aggiungi spaziatura alle categorie e assegna una gerarchia all''elenco delle categorie.'
   forum:
@@ -57,14 +57,15 @@ v17development-flarum-blog:
       post_article: 'Pubblica articolo'
       post_without_blog_info: 'Sei sicuro di voler pubblicare questo post sul blog? Non hai ancora inserito un riepilogo o un''immagine.'
       select_category: 'Scegli una categoria'
+      update_settings: 'Aggiorna impostazioni Blog'
       view: Vedi
       write: Scrivi
     forum_nav: 'Forum Nav'
     hidden: Nascosto
-    no_more_posts: 'No more blog posts.'
+    no_more_posts: 'Niente post del blog.'
     read_more: 'Leggi tutto'
     recent_posts: 'Post recenti del Blog'
-    return_to_overview: 'Torna alla panoramica del blog'
+    return_to_overview: 'Torna alla panoramica del blog '
     review_article:
       approve_article: 'Approva articolo'
       approve_article_approved: 'L''articolo è stato approvato e pubblicato'
