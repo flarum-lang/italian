@@ -6,10 +6,24 @@ justoverclock-feedback:
   admin:
     background-color: 'Colore di sfondo Widget'
     background-color-help: 'Fornisci un codice colore esadecimale da utilizzare come colore di sfondo, ad esempio ''#fff'''
+    box-title: 'Titolo del Box'
+    box-title-help: 'Imposta il titolo del widget (il vecchio "Flarum feedback")'
     collect-email: 'Mostra campo email opzionale agli utenti'
     collect-email-help: 'Se abilitato, gli utenti possono aggiungere il proprio indirizzo e-mail al feedback'
     contactdesc: 'Questo campo deve essere compilato per abilitare il widget'
     contactmail: 'Email a cui inviare i Feedback'
+    feedback1-icon: 'Icona per Feedback 1'
+    feedback1-icon-help: 'Inserisci un icona tipo "⚠, ☎, ✎" - Trovane altre su https://coolsymbol.com/'
+    feedback1-title: 'Feedback 1'
+    feedback1-title-help: 'Personalizza il nome del "Tipo di Feedback"'
+    feedback2-icon: 'Icona per Feedback 2'
+    feedback2-icon-help: 'Inserisci un icona tipo "⚠, ☎, ✎" - Trovane altre su https://coolsymbol.com/'
+    feedback2-title: 'Feedback 2'
+    feedback2-title-help: 'Personalizza il nome per "Feedback 2"'
+    feedback3-icon: 'Icona per Feedback 3'
+    feedback3-icon-help: 'Inserisci un icona tipo "⚠, ☎, ✎" - Trovane altre su https://coolsymbol.com/'
+    feedback3-title: 'Feedback 3'
+    feedback3-title-help: 'Personalizza il nome per "Feedback 3"'
     font-color: 'Colore font Widget'
     font-color-help: 'Fornisci un codice colore esadecimale da utilizzare come colore del carattere, ad esempio ''#000'''
     left_label: Sinistra
@@ -27,6 +41,8 @@ justoverclock-feedback:
     feedback-widget:
       back: Indietro
       contact-text: 'O invia un email!'
+      email-field-placeholder: 'Email (opzionale)'
+      email-placeholder: 'Email (opzionale)'
       failed-message: 'Per favore riprova. Se continua a succedere, prova a inviare un''email.'
       failed-title: 'Oops, errore riscontrato'
       placeholder: 'Inserisci qui il tuo feedback'
