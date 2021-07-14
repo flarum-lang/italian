@@ -13,6 +13,7 @@ nearata-auth-minecraft:
       submit_button: 'Cambia Email'
       title: 'Cambia Email'
       token_placeholder: Token
+    error_403: 'Token non valido o scaduto.'
     log_in_button_title: 'Login con Minecraft'
     log_in_modal:
       submit_button: Valida

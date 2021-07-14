@@ -6,6 +6,8 @@ nearata-embed-twitch:
   admin:
     allowfullscreen: 'Permetti schermo intero'
     autoplay: AutoPlay
+    permissions:
+      create_twitch: 'Integra Twitch'
   forum:
     button_tooltip_title: 'Integra Twitch'
     modal:
