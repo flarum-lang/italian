@@ -41,7 +41,7 @@ fof-terms:
   forum:
     accept-modal:
       accept: Conferma
-      close: 'Puoi ora chiudere questo modale'
+      close: 'Grazie per aver accettato, puoi ora chiudere questo avviso'
       i-accept: 'Accetto i nuovi <a>{policy}</a>'
       title: 'Aggiornamento dei termini'
       updated-at: 'I termini sono stati aggiornati il {date}'

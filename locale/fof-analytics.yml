@@ -4,6 +4,8 @@
 
 fof-analytics:
   admin:
+    matomo-widget:
+      title: Matomo
     popup:
       field:
         googleGTMCode: 'ID codice GTM (opzionale)'
@@ -16,14 +18,14 @@ fof-analytics:
         piwikSiteId: 'ID Sito'
         piwikTrackAccounts: 'Tieni traccia dei singoli account utente'
         piwikTrackSubdomain: 'Tieni traccia dei visitatori in tutti i sottodomini di Flarum'
-        piwikUrl: 'Dominio o URL Piwik'
+        piwikUrl: 'Dominio o URL Matomo'
         statusGoogle: 'Abilita Google Analytics'
-        statusPiwik: 'Abilita Piwik'
+        statusPiwik: 'Abilita Matomo'
       placeholder:
-        piwikAuthToken: "Compila questo token per abilitare una scheda delle statistiche di Piwik nel pannello di amministrazione.\nPuoi trovarlo in Impostazioni> Personale> Token di autenticazione API.\n"
+        piwikAuthToken: "Compila questo token per abilitare una scheda delle statistiche di Matomo nel pannello di amministrazione.\nPuoi trovarlo in Impostazioni> Personale> Token di autenticazione API.\n"
       section:
         googleAnalytics: 'Google Analytics'
-        piwik: Piwik
+        piwik: Matomo
       trackAccounts:
         email: 'Traccia tramite email'
         none: 'Non tracciare'
