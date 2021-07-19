@@ -4,7 +4,10 @@
 
 first-visit-indexpage:
   forum:
+    accept-rules: 'Ho letto ed accetto le regole'
     agree-button: Accetto...
+    alert-message: 'Per favore accetta le regole per continuare'
+    app-title: 'Regole del Forum'
     copyright: 'Copyright, contenuti offensiti, link e immagini'
     copyright-text: "<p>È vietato fornire o chiedere informazioni su come ottenere illegalmente materiale protetto da copyright.</p>\n<p>Qualsiasi materiale che costituisca diffamazione, molestia o abuso è severamente vietato.\nMateriale sessualmente esplicito o in altro modo osceno, razzista o altrimenti eccessivamente discriminatorio\nnon verrà tollerato in questo forum. Ciò include le immagini degli avatar o simili. Usa il buon senso durante la pubblicazione.</p>\n"
     general-rules: 'Regole Generali'
