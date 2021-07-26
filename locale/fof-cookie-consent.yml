@@ -19,3 +19,9 @@ fof-cookie-consent:
       theme_dismiss_title: 'Colori Pulsante di Accettazione'
       theme_popup_title: 'Colori del Popup'
       theme_title: 'Opzioni del Tema'
+      themes:
+        blocky: Blocky
+        classic: Classico
+        custom: Personalizzato
+        edgeless: 'Senza spigoli'
+        no_css: 'Senza CSS'

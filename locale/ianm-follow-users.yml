@@ -15,15 +15,32 @@ ianm-follow-users:
     new_post_subject: '[Utente Seguito] Nuovo post in {title}'
   forum:
     badge:
-      label: 'Utente seguito'
+      label:
+        follow: 'Discussioni seguite'
+        lurk: 'Segui tutte'
+    filter:
+      following: 'Utenti Seguiti'
     index:
       follow_tag_button: Segui
       unfollow_tag_button: 'Smetti di seguire'
+    modals:
+      select_follow_level:
+        cancel_btn: Cancella
+        description: 'Scegli come desideri seguire <em>{username}</em>.'
+        follow_levels_heading: Livelli
+        follow_select_label: 'Tipo di Follow'
+        no_user_attr_provided_err: 'Uh oh, qualcosa è andato storto durante l''apertura di questo modale.'
+        no_user_attr_provided_err_debug: 'Nessun attributo "utente" è stato passato al modale SelectFollowUserLevel al momento della creazione. Non è possibile eseguire il rendering modale.'
+        save_btn: Salva
+        title: 'Seleziona il livello di follow per {username}'
     notifications:
       new_discussion_text: '{username} ha iniziato'
       new_follower_text: '{username} ha iniziato a seguirti'
       new_post_text: '{username} ha risposto in una discussione'
       new_unfollower_text: '{username} ha smesso di seguirti'
+    profile_link: '=> ianm-follow-users.lib.following_link'
+    profile_page:
+      no_following: 'Sembra che tu non stia seguendo nessuno.'
     settings:
       block_follow: 'Impedisci agli utenti di seguirmi'
       notify_new_discussion_label: 'Qualcuno che sto seguendo ha iniziato una discussione'
@@ -31,9 +48,15 @@ ianm-follow-users:
       notify_new_post_label: 'Qualcuno che sto seguendo ha risposto in una discussione'
       notify_new_unfollower_label: 'Qualcuno ha smesso di seguirmi'
     user_controls:
-      follow_button: Segui
+      follow_button: '=> ianm-follow-users.lib.follow'
       follow_confirmation: 'Sei sicuro di voler seguire questo utente?'
       unfollow_button: 'Non seguire più'
       unfollow_confirmation: 'Sei sicuro di non voler più seguire questo utente?'
   lib:
+    change_follow_type: 'Cambia tipo Follow'
+    follow: Segui
+    follow_levels:
+      unfollow:
+        description: "Non ricevere notifiche per l'attività di <em>{username}</em>.\n"
+        name: 'Non Seguire'
     following_link: 'Utenti seguiti'
