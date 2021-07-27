@@ -11,10 +11,12 @@ flarumite-simple-discussion-views:
   admin:
     permissions:
       reset_views_label: 'Imposta visualizzazioni discussione'
+    settings:
+      ignore_crawlers: 'Ignora visite crawler'
   forum:
     discussion_controls:
       resetviews_button: 'Imposta visualizzazioni'
     modal_resetviews:
-      label: 'Imposta per visualizzare conteggio'
+      label: 'Imposta conteggio visualizzazioni'
       submit: Invia
       title: 'Reimposta conteggio visualizzazioni'
