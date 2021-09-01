@@ -7,7 +7,9 @@ antoinefr-money:
     permissions:
       edit_money_label: 'Modifica denaro'
     settings:
+      helpextensionlikes: 'Richiede l''estensione <code>flarum/likes</code>'
       moneyfordiscussion: 'Denaro dato per una nuova discussione'
+      moneyforlike: 'Soldi dati quando un post è piaciuto'
       moneyforpost: 'Denaro dato per un nuovo posto'
       moneyname: 'Nome del denaro (es: [denaro] punti)'
       noshowzero: 'Non mostrare se il valore è zero'
