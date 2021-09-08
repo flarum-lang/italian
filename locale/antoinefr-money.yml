@@ -5,13 +5,13 @@
 antoinefr-money:
   admin:
     permissions:
-      edit_money_label: 'Modifica denaro'
+      edit_money_label: 'Modifica moneta'
     settings:
       helpextensionlikes: 'Richiede l''estensione <code>flarum/likes</code>'
-      moneyfordiscussion: 'Denaro dato per una nuova discussione'
+      moneyfordiscussion: 'Ricompensa per una nuova discussione'
       moneyforlike: 'Soldi dati quando un post è piaciuto'
-      moneyforpost: 'Denaro dato per un nuovo posto'
-      moneyname: 'Nome del denaro (es: [denaro] punti)'
+      moneyforpost: 'Ricompensa per un nuovo post'
+      moneyname: 'Nome della moneta (es: [denaro] punti)'
       noshowzero: 'Non mostrare se il valore è zero'
       postminimumlength: 'Lunghezza minima del post per ottenere il denaro (0 per disabilitare)'
       title: Impostazioni
@@ -21,4 +21,4 @@ antoinefr-money:
       submit_button: '=> core.ref.save_changes'
       title: 'Soldi di {username}'
     user_controls:
-      money_button: 'Modifica denaro'
+      money_button: 'Modifica moneta'
