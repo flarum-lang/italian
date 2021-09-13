@@ -14,7 +14,9 @@ fof-best-answer:
       allow_select_own_post: 'Consenti agli utenti di selezionare i propri post'
       allow_select_own_post_help: 'Permetti di selezionere il proprio post come risposta migliore'
       documentation: Documentazione
-      introduction: "Abilita quali tag devono supportare le risposte migliore in <code>flarum/tags</code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n"
+      enable_all_tags_button: 'Abilita tutti i tag per Risposta Migliore'
+      enable_all_tags_reminder_button: 'Abilita tutti i tag per i promemoria di Risposta Migliore'
+      introduction: "Abilita quali tag devono supportare le risposte migliore in <code><a>flarum/tags</a></code> e, facoltativamente, quali tag devono supportare i promemoria. Quando un tag è abilitato per la risposta migliore, assegna le autorizzazioni a ciascun gruppo di utenti che può impostare le risposte (discussione personale, qualsiasi discussione). Le autorizzazioni possono essere assegnate globalmente (per qualsiasi tag abilitato Best Answer) o in base al tag.\n"
       label:
         advanced: Avanzate
         general: Generale
@@ -28,6 +30,8 @@ fof-best-answer:
       schedule_stop_overnight_help: '9pm - 8am orario server'
       select_best_answer_reminder_days: 'Frequenza promemoria'
       select_best_answer_reminder_days_help: 'Invia un promemoria dopo un numero di giorni configurabile per invitare a scegliere la risposta migliore, 0 = disabilita promemoria.'
+      show_filter_help: 'Per i tag che hanno abilitazione a Risposta migliore, scegli ri mostrare filtro risolto/non risolto nella lista discussioni'
+      show_filter_label: 'Mostra filtro Risposta Migliore nel menu a comparsa'
       use_alt_ui: 'Layout Alternativo'
       use_alt_ui_help: 'Controlli Risposta Migliore nel footer dei post'
   email:
