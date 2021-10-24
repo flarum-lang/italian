@@ -428,6 +428,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruppi
+      nothing_available: 'Non sei autorizzato a modificare questo utente.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Imposta nuova password'
@@ -443,6 +444,7 @@ core:
       payload_too_large_message: 'Il payload richiesto era troppo grande.'
       permission_denied_message: 'Non hai il permesso di farlo.'
       rate_limit_exceeded_message: 'Stai scrivendo un po'' troppo in fretta. Riprova tra qualche secondo.'
+      render_failed_message: 'Spiacenti, si è verificato un errore durante la visualizzazione di questo contenuto. Se sei un utente, riprova più tardi. Se sei un amministratore, dai un''occhiata ai file di registro di Flarum per ulteriori informazioni.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     number_suffix:
