@@ -6,9 +6,12 @@ core:
   forum:
     index_sort:
       hot_button: Tendenza
+      votes_button: 'Voto Positivo'
 fof-gamification:
   admin:
     page:
+      alt_votes:
+        icon_name: 'Layout nome icona Alt'
       convert:
         button: 'Converti mi piace in voti positivi'
         converted: 'Tutti i voti sono stati convertiti ({number})'
@@ -45,6 +48,7 @@ fof-gamification:
         points_title: 'Punti (Segnaposto)'
         rate_limit: 'Applica un tempo limite per votare (10 secondi)'
         title: Voti
+        upvotes_only: 'Permetti solo voti positivi'
         vote_color: 'Colore del voto'
     permissions:
       see_ranking_page: 'Visualizzare la pagina della classifica'
