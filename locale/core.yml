@@ -429,6 +429,7 @@ core:
   lib:
     badge:
       hidden_tooltip: Nascosto
+    debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Attiva/disattiva il menu a discesa'
     edit_user:
@@ -455,6 +456,8 @@ core:
       render_failed_message: 'Spiacenti, si è verificato un errore durante la visualizzazione di questo contenuto. Se sei un utente, riprova più tardi. Se sei un amministratore, dai un''occhiata ai file di registro di Flarum per ulteriori informazioni.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
+    nav:
+      drawer_button: 'Apri navigazione'
     number_suffix:
       kilo_text: K
       mega_text: M
