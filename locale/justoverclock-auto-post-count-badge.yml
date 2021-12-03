@@ -17,9 +17,11 @@ justoverclock-auto-post-count-badge:
     levelTwo: 'Cambia icona per il livello 2 - "Il Viandante"'
     levelTwo-help: 'incolla qui il codice dell''icona fontawesome per il livello 2 (e.g. "fas fa-square")'
   forum:
+    hasWritten: 'Questo utente ha scritto'
     less1000post: 'Il Guru!'
     less100post: 'Il Parlatore'
     less10post: 'Il Poppante'
     less300post: 'Il Maestro'
     less50post: 'Il Viandante'
     less600post: 'Il Mostro!'
+    posts: post
