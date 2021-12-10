@@ -16,8 +16,16 @@ justoverclock-auto-post-count-badge:
     levelTree-help: 'incolla qui il codice dell''icona fontawesome per il livello 3 (e.g. "fas fa-square")'
     levelTwo: 'Cambia icona per il livello 2 - "Il Viandante"'
     levelTwo-help: 'incolla qui il codice dell''icona fontawesome per il livello 2 (e.g. "fas fa-square")'
+    settings:
+      icon-manager:
+        help_text: '=> core.ref.icon_text'
+        title: 'Gestione Icone'
+      label-manager:
+        help: 'Personalizza nomi livelli'
+        title: 'Gestione Testo Badge'
+      tier: 'Livello {tier} : da {from} a {to} post'
   forum:
-    hasWritten: 'Questo utente ha scritto'
+    hasWritten: '{count, plural, one {# post scritto} other {# post scritti}}'
     less1000post: 'Il Guru!'
     less100post: 'Il Parlatore'
     less10post: 'Il Poppante'

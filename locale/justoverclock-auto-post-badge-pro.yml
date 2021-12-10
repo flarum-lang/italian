@@ -4,6 +4,9 @@
 
 justoverclock-auto-post-badge-pro:
   admin:
+    cologBackg: 'Colore di Sfondo'
+    colorBg: 'Sfondo Barra Progresso'
+    colorBgTwo: Sfondo
     fromPost: 'Da numero di post'
     icon: Icona
     levelEight: 'Livello 8'
@@ -28,4 +31,5 @@ justoverclock-auto-post-badge-pro:
     toPost: 'A numero di post'
   forum:
     hasWritten: 'Questo utente ha scritto'
+    nextBadge: 'Prossimo badge in'
     posts: post
