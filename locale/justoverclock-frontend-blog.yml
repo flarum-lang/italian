@@ -4,6 +4,19 @@
 
 justoverclock-frontend-blog:
   admin:
+    charLim: 'Limite caratteri'
+    charLim-help: 'Immetti qui il numero di caratteri massimi del post'
+    defaultImage: 'Immagine di default del post'
+    defaultImage-help: 'qui puoi definire l''immagine predefinita per i post che non ne hanno una'
     numberOfPost: 'Numero di Post'
     numberOfPost-help: 'Imposta qui il numero di post che verranno mostrati'
     sorting: 'Post recenti o popolari? (recenti è di default)'
+    sorting-help: 'Se vuoi visualizzare le discussioni più recenti scrivi "-createdAt", per discussioni popolari scrivi "-commentCount"'
+  forum:
+    allDiscussions: 'Tutte le Discussioni'
+    linkToDiscussion: ' Vai alla Discussione'
+    menuButton: Menu
+    post: '{count, plural, one {# POST} other {# POST}}'
+    postedOn: ' Creata il: '
+    recentDiscussions: 'Discussioni Recenti:'
+    titlePage: 'Discussioni del Forum'
