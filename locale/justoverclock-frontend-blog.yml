@@ -10,13 +10,19 @@ justoverclock-frontend-blog:
     defaultImage-help: 'qui puoi definire l''immagine predefinita per i post che non ne hanno una'
     numberOfPost: 'Numero di Post'
     numberOfPost-help: 'Imposta qui il numero di post che verranno mostrati'
+    showHeaderHero: 'Mostra Welcome Hero'
+    showPinnedDiscussions: 'Mostra ultime 3 discussioni in rilievo'
     sorting: 'Post recenti o popolari? (recenti è di default)'
     sorting-help: 'Se vuoi visualizzare le discussioni più recenti scrivi "-createdAt", per discussioni popolari scrivi "-commentCount"'
   forum:
-    allDiscussions: 'Tutte le Discussioni'
+    allDiscussions: Forum
     linkToDiscussion: ' Vai alla Discussione'
+    loginButton: Login
     menuButton: Menu
     post: '{count, plural, one {# POST} other {# POST}}'
     postedOn: ' Creata il: '
+    readMore: 'Leggi tutto'
     recentDiscussions: 'Discussioni Recenti:'
+    signupButton: Registrati
+    stickyTitle: 'Discussioni in rilievo'
     titlePage: 'Discussioni del Forum'
