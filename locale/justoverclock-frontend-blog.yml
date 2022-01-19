@@ -10,6 +10,7 @@ justoverclock-frontend-blog:
     defaultImage-help: 'qui puoi definire l''immagine predefinita per i post che non ne hanno una'
     numberOfPost: 'Numero di Post'
     numberOfPost-help: 'Imposta qui il numero di post che verranno mostrati'
+    setBlogIndexPage: 'Imposta Frontend Blog come pagina principale'
     showHeaderHero: 'Mostra Welcome Hero'
     showPinnedDiscussions: 'Mostra ultime 3 discussioni in rilievo'
     sorting: 'Post recenti o popolari? (recenti è di default)'
