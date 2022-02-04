@@ -12,4 +12,5 @@ justoverclock-user-pc-specs:
     ram: 'Ram:'
     savePcSpecs: 'Salva specifiche del tuo PC'
     so: 'Sistema Operativo:'
+    specsSaved: 'Specifiche PC salvate correttamente!'
     storage: 'Storage:'
