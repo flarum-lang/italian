@@ -5,4 +5,5 @@
 blomstra-sort-order-toggle:
   forum:
     sort-toggle:
+      asc-label: 'Ordine ascendente (premi per alternare)'
       desc-label: 'Ordine decrescente (premi per alternare)'

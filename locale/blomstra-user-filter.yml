@@ -10,11 +10,11 @@ blomstra-user-filter:
   forum:
     index_page:
       filter_user:
-        accessible_label: 'Filtra per utente'
+        accessible_label: 'Filtra per autore'
         all: Tutti
         keep_typing: 'Continua a scrivere...'
-        label: 'Filtra per utente: {text}'
+        label: 'Filtra per autore: {text}'
         no_results: 'Nessun risultato'
-        remove_filter: 'Rimuovi filtro utente'
+        remove_filter: 'Rimuovi filtro autore'
         search_label: 'Cerca utente...'
         start_typing: 'Inizia a scrivere...'
