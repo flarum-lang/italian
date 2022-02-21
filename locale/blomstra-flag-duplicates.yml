@@ -15,6 +15,7 @@ blomstra-flag-duplicates:
       reason_duplicate_text: 'Questa discussione è la copia di un altra.'
     post_stream:
       flagged_duplicate_text: '{username} ha contrassegnato questa discussione come un potenziale duplicato di {duplicate}. Un moderatore indagherà a breve.'
+      not_found: 'Non trovato'
 flarum-flags:
   forum:
     flag_post:
