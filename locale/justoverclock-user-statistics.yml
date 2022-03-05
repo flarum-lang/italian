@@ -6,5 +6,6 @@ justoverclock-user-statistics:
   forum:
     joinTime: 'Data di registrazione'
     likeReceived: 'Like Ricevuti'
+    likes: Like
     totalDiscussions: 'Discussioni totali'
     totalPosts: 'Post Totali'
