@@ -8,14 +8,24 @@ clarkwinkelmann-mass-actions:
       controls: 'Vedi controlli multi-selezione'
   forum:
     actions:
+      delete: 'Selezione Elimina per sempre'
+      deleteConfirmation: '{count, plural, one {Sei sicuro di voler eliminare definitivamente la discussione?} other {Sei sicuro di voler eliminare definitivamente # discussioni selezionate?}}'
       hide: 'Cancella selezionati'
       lock: 'Chiudi selezionati'
       markAsRead: 'Segna selezionati come letti'
       restore: 'Ripristina selezionati'
+      sticky: 'Selezionate in evidenza'
       tags: Tag
       tags-add: 'Aggiungi <em>{tag}</em>'
       tags-edit: 'Modifica tag'
       unlock: 'Riapri selezionati'
+      unsticky: 'Non in evidenza selezionate'
     select:
-      all: 'Seleziona tutto'
-      none: 'Deseleziona tutto'
+      all: Tutto
+      hidden: 'Eliminati (soft)'
+      locked: Chiusi
+      none: Nessuno
+      read: Letti
+      unlocked: Aperti
+      unread: 'Non Letti'
+      visible: 'Non eliminati'

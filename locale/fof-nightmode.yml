@@ -2,6 +2,13 @@
 # Use https://weblate.rob006.net/projects/flarum/fof-nightmode/it/ for translation.
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
+fof-default-user-preferences:
+  admin:
+    settings:
+      fofNightMode: 'FoF Nightmode: tema colore da utilizzare per impostazione predefinita'
+      fofNightMode-help: '0 - automatico, 1 - modalità chiara, 2 - modalità oscura'
+      fofNightMode_perDevice: 'FoF Nightmode: utilizzare per le impostazioni del dispositivo'
+      fofNightMode_perDevice-help: 'Usa le preferenze per dispositivo per le impostazioni della modalità notturna'
 fof-nightmode:
   admin:
     settings:

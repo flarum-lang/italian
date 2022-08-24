@@ -85,8 +85,11 @@ fof-gamification:
       name: Utente
       rank: Posizione
     user:
+      card:
+        points: '{count, plural, one { {count} punto} other {{count} punti}}'
       points: 'Punti: {points}'
       rank: '{rank}'
+      votes_link: Voti
     vote_title: 'Mostra i votanti'
     voters:
       label: Votanti

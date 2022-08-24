@@ -6,7 +6,11 @@ flarum-akismet:
   admin:
     akismet_settings:
       api_key_label: 'Chiave API'
+      delete_blatant_spam_help: 'Se Akismet ha stabilito che il commento è spam palese, invece di segnalare, elimina automaticamente il post'
+      delete_blatant_spam_label: 'Elimina automaticamente lo spam palese'
       title: 'Impostazioni Akismet'
+    permissions:
+      bypass_akismet: 'Bypassa Akismet'
   forum:
     post:
       akismet_flagged_text: 'Contrassegnato come spam da Akismet'
