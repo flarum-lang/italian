@@ -2,6 +2,20 @@ CHANGELOG
 =========
 
 
+1.3.1 (XXXX-XX-XX)
+------------------
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`fof/reactions`](https://github.com/FriendsOfFlarum/reactions)
+* [`fof/socialprofile`](https://github.com/FriendsOfFlarum/socialprofile)
+* [`fof/user-directory`](https://github.com/FriendsOfFlarum/user-directory)
+* [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
+
+
+Cambiamenti: [1.3.0...1.3.1](https://github.com/flarum-lang/italian/compare/1.3.0...1.3.1).
+
+
 1.3.0 (2022-08-24)
 ------------------
 
