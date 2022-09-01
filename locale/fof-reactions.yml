@@ -31,6 +31,8 @@ fof-reactions:
             Label: 'Converti reazioni in like'
             legend: Like
           warning: 'La stessa reazione <strong>non può</strong> essere convertita in un like <strong>e</strong> in un voto negativo'
+        react_own_posts_help: 'Se abilitato, previa autorizzazione, gli utenti possono reagire ai propri post sul forum. Per impedire agli utenti di reagire ai propri post, disabilitare questa impostazione.'
+        react_own_posts_label: 'Gli utenti possono reagire ai propri post'
         save_settings: 'Salva Impostazioni'
     permissions:
       react_posts_label: 'Metti una reazione ai post'

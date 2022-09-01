@@ -9,7 +9,7 @@ fof-socialprofile:
       editOwn: 'Modificare il proprio profilo Social'
       view: 'Vedi profilo Social'
     settings:
-      allow_external_favicons_label: 'Consenti icone siti esterne'
+      allow_external_favicons_label: 'Consenti icone di siti Web esterni (utilizza l''API favicon di DuckDuckGo)'
   forum:
     edit:
       add: 'Aggiungi pulsante social'
