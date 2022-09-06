@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.4.0 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`v17development/flarum-blog`](https://github.com/v17development/flarum-blog)
+
+
+Cambiamenti: [1.3.1...1.4.0](https://github.com/flarum-lang/italian/compare/1.3.1...1.4.0).
+
+
 1.3.1 (2022-09-01)
 ------------------
 
