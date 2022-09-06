@@ -8,6 +8,8 @@ CHANGELOG
 **Aggiunto supporto a nuove estensioni**:
 
 * [`blomstra/oauth-slack`](https://github.com/blomstra/flarum-ext-oauth-slack)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
+* [`clarkwinkelmann/flarum-ext-formatted-banner`](https://github.com/clarkwinkelmann/flarum-ext-formatted-banner)
 
 
 **Traduzioni aggiornate per le estensioni**:
