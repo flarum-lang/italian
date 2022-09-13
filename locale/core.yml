@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'Header colorato'
       colors_heading: Colori
+      colors_primary_label: 'Colore Primario'
+      colors_secondary_label: 'Colore Secondario'
       colors_text: 'Inserisci due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenza, mentre il secondo verrà usato come colore per gli elementi di sfondo.'
       custom_footer_heading: 'Footer personalizzato'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,8 +47,12 @@ core:
     dashboard:
       clear_cache_button: 'Pulisci cache'
       description: 'Il tuo forum a colpo d''occhio.'
+      io_error_message: 'Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando.'
       title: Dashboard
       tools_button: Strumenti
+    debug-warning:
+      detail: "Quando la modalità <code>debug</code> è attiva, Flarum ricostruirà le sue risorse <code>JavaScript</code> e <code>CSS</code> ad ogni richiesta e potrebbe anche potenzialmente perdere altre informazioni, come il alcuni elementi del database, variabili di ambiente, ecc.\n\nSi consiglia vivamente di disabilitare <code>debug</code> nel file <code>config.php</code> in produzione. Per ulteriori informazioni, vedere <link>Documenti Flarum</link>.\n"
+      label: 'Modalità debug attiva'
     edit_css:
       customize_text: 'Personalizza l''aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili predefiniti</a> di Flarum.'
       submit_button: '=> core.ref.save_changes'
@@ -336,6 +342,8 @@ core:
       title: '=> core.ref.log_in'
       username_or_email_placeholder: 'Nome utente o e-mail'
     notifications:
+      delete_all_confirm: 'Sei sicuro di voler eliminare tutte le notifiche? Questa azione non è reversibile'
+      delete_all_tooltip: 'Elimina tutte le notifiche'
       discussion_renamed_text: '{username} ha cambiato il titolo'
       empty_text: 'Non ci sono notifiche'
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
@@ -377,6 +385,7 @@ core:
       account_heading: Account
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
+      notification_checkbox_a11y_label_template: 'Ricevi notifiche "{description}" tramite {method}'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: Web
