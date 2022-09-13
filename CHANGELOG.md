@@ -2,6 +2,31 @@ CHANGELOG
 =========
 
 
+1.5.0 (2022-09-13)
+------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`datlechin/flarum-discussion-overview`](https://github.com/datlechin/flarum-discussion-overview)
+* [`justoverclock/best-answer-badge`](https://github.com/justoverclockl/best-answer-badge)
+* [`justoverclock/broken-links-checker`](https://github.com/justoverclockl/broken-links-checker)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`flarum/likes`](https://github.com/flarum/likes)
+* [`fof/analytics`](https://github.com/FriendsOfFlarum/analytics)
+* [`v17development/flarum-user-badges`](https://github.com/v17development/flarum-user-badges)
+
+
+Cambiamenti: [1.4.0...1.5.0](https://github.com/flarum-lang/italian/compare/1.4.0...1.5.0).
+
+
 1.4.0 (2022-09-06)
 ------------------
 
