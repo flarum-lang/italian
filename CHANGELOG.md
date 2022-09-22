@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+1.6.0 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`blomstra/payments`](https://extiverse.com/extension/blomstra/payments)
+* [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Cambiamenti: [1.5.0...1.6.0](https://github.com/flarum-lang/italian/compare/1.5.0...1.6.0).
+
+
 1.5.0 (2022-09-13)
 ------------------
 
