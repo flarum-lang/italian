@@ -8,6 +8,7 @@ CHANGELOG
 **Aggiunto supporto a nuove estensioni**:
 
 * [`blomstra/fontawesome`](https://github.com/blomstra/flarum-ext-fontawesome)
+* [`justoverclock/staff-members-widget`](https://github.com/justoverclockl/staff-member-widget)
 
 
 **Traduzioni aggiornate per le estensioni**:
