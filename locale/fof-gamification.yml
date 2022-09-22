@@ -17,6 +17,15 @@ fof-gamification:
         converted: 'Tutti i voti sono stati convertiti ({number})'
         converting: 'I mi piace verrano convertiti. Ricarica il sito dopo un paio di minuti per verificare il processo finito. (Il tempo di conversione può richiedere un po'' in base ai mi piace totali presenti sul forum)'
         help: 'Converti i mi piace precedenti da flarum-ext-likes in voti positivi, e calcola la tendenza per tutte le discussioni attuali.'
+      groups:
+        add: 'Aggiungi nuova regola'
+        column:
+          group: Gruppo
+          maxPoints: 'Punti massimi (compreso)'
+          minPoints: 'Punti minimi (compreso)'
+        delete: 'Cancella regola'
+        help: "I gruppi selezionati verranno automaticamente aggiunti o rimossi in base alle esigenze quando il numero di punti di un utente cambia. Se hai apportato modifiche alla configurazione, dovresti eseguire il comando <code>php flarum fof:gamification:assign-groups</code> per aggiornare gli utenti esistenti. Se desideri eliminare una regola e rimuovere tutti gli utenti dal gruppo, imposta i valori minimo e massimo su una stringa vuota, salva le impostazioni ed esegui il comando della riga di comando. Infine puoi eliminare completamente la regola dalle impostazioni.\n"
+        title: 'Gruppi assegnati automaticamente'
       rankings:
         blocked:
           help: 'Questi utenti non verranno mostrati nella classifica. I nomi utente devono essere separati da una virgola seguita da uno spazio.'
