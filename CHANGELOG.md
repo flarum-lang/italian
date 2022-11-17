@@ -2,6 +2,29 @@ CHANGELOG
 =========
 
 
+1.7.0 (2022-11-17)
+------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`ianm/translate`](https://extiverse.com/extension/ianm/translate)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`flarum/mentions`](https://github.com/flarum/mentions)
+* [`flarum/statistics`](https://github.com/flarum/statistics)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+
+
+Cambiamenti: [1.6.0...1.7.0](https://github.com/flarum-lang/italian/compare/1.6.0...1.7.0).
+
+
 1.6.0 (2022-09-22)
 ------------------
 
