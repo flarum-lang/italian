@@ -62,6 +62,17 @@ fof-oauth:
       twitter: '=> fof-oauth.lib.providers.twitter'
     signup:
       username_help: 'Per favore scegli un nome utente'
+    unlink: 'Rimuovi link'
+    user:
+      settings:
+        linked-account:
+          help: 'Questi account collegati ti consentono di accedere al forum utilizzando altri provider.'
+          identifier-label: '{provider} ID'
+          label: 'Account collegato'
+          last-used-label: 'Ultimo utilizzato'
+          link-created-label: 'Link creato'
+          orphaned-account: 'Hai effettuato l''accesso tramite questo provider in precedenza, ma da allora questo forum ha disabilitato l''accesso con questo metodo.'
+          unlink-confirm: 'Sei sicuro di voler rimuovere il collegamento con {provider}? Non sarai più in grado di accedere a questo forum a meno che non ti autentichi nuovamente in futuro.'
   lib:
     providers:
       discord: Discord
