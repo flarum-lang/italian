@@ -29,7 +29,7 @@ fof-gamification:
       rankings:
         blocked:
           help: 'Questi utenti non verranno mostrati nella classifica. I nomi utente devono essere separati da una virgola seguita da uno spazio.'
-          placeholder: 'CDK2020, Ralkage, AngelAvila'
+          placeholder: 'admin, utente1, utente2'
           title: 'Ignora utenti'
         custom_image_1: 'Immagine 1° posizione'
         custom_image_2: 'Immagine 2° posizione'
@@ -47,6 +47,7 @@ fof-gamification:
         title: Grado
       save_settings: 'Salva impostazioni'
       votes:
+        allow_self_votes: 'Gli utenti possono votare i propri post'
         alternate_layout: 'Usa layout alternativo dei voti nella lista discussioni'
         alternate_post_layout: 'Usa layout alternativo dei voti nei post'
         auto_upvote: 'Dai un voto positivo automatico quando i messaggi vengono postati'
