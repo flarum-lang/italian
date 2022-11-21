@@ -2,6 +2,23 @@ CHANGELOG
 =========
 
 
+1.8.0 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`blomstra/oauth-apple`](https://github.com/blomstra/flarum-ext-oauth-apple)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`fof/gamification`](https://github.com/FriendsOfFlarum/gamification)
+
+
+Cambiamenti: [1.7.0...1.8.0](https://github.com/flarum-lang/italian/compare/1.7.0...1.8.0).
+
+
 1.7.0 (2022-11-17)
 ------------------
 
