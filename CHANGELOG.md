@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.8.0 (XXXX-XX-XX)
+1.8.0 (2022-11-24)
 ------------------
 
 **Aggiunto supporto a nuove estensioni**:
