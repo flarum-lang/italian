@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+1.8.1 (2022-12-01)
+------------------
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`davwheat/virtual-authors`](https://extiverse.com/extension/davwheat/virtual-authors)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+
+
+Cambiamenti: [1.8.0...1.8.1](https://github.com/flarum-lang/italian/compare/1.8.0...1.8.1).
+
+
 1.8.0 (2022-11-24)
 ------------------
 
