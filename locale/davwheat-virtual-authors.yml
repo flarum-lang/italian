@@ -44,14 +44,14 @@ davwheat-virtual-authors:
       virtual_author_exists: 'Gia selezionato!'
     virtual_author_page:
       credited_discussions: 'Discussioni accreditate a {displayName}'
-      discussion_count: '{count, plural, one {# discussione}, other {# discussioni}}'
+      discussion_count: '{count, plural, one {# discussione} other {# discussioni}}'
       meta_title: '{displayName} - Autori'
     virtual_authors_panel:
       error: 'Impossibile caricare gli autori.'
       heading: Autori
       item_link_tooltip: 'Visualizza tutte le discussioni di {displayName}'
   lib:
-    discussion-badge: '{count, plural, one {Ha un autore virtuale}, other {Ha autori virtuali}}'
+    discussion-badge: '{count, plural, one {Ha un autore virtuale} other {Ha autori virtuali}}'
     edit_modal:
       fields:
         description: 'Descrizione (dell''autore)'
