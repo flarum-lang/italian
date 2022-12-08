@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.8.2 (XXXX-XX-XX)
+------------------
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+
+
+Cambiamenti: [1.8.1...1.8.2](https://github.com/flarum-lang/italian/compare/1.8.1...1.8.2).
+
+
 1.8.1 (2022-12-01)
 ------------------
 
