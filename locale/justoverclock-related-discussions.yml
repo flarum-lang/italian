@@ -10,7 +10,11 @@ justoverclock-related-discussions:
     relatedTitle: 'Titolo per "Discussioni Correlate"'
     relatedTitle-help: 'Rimpiazza il titolo di defaul con un tuo titolo personalizzato'
     showExcerpt: 'Mostra riassunto post'
+    showTooltip: 'Mostra tooltip con estratto del post'
   forum:
+    deleted: Cancellata
+    hasBestAnswer: Risolto
+    hasBestAnswer-title: 'Questa discussione è contrassegnata come risolta'
     participants: Partecipanti
     postedOn: 'il:'
     postnumber: 'Numero di post'

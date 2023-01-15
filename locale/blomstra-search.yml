@@ -11,3 +11,7 @@ blomstra-search:
     elastic-index: Index
     elastic-password: '=> core.ref.password'
     elastic-username: '=> core.ref.username'
+    match-sentences: 'Abbina il termine di ricerca alla frase completa'
+    match-words: 'Abbina il termine di ricerca alle parole intere'
+    search-discussion-subjects: 'Cerca all''interno dei titoli discussione'
+    search-post-bodies: 'Cerca fra i commenti'
