@@ -2,6 +2,33 @@ CHANGELOG
 =========
 
 
+1.10.0 (XXXX-XX-XX)
+-------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`blomstra/conversations`](https://github.com/blomstra/flarum-ext-conversations)
+* [`datlechin/flarum-birthdays-widget`](https://github.com/datlechin/flarum-birthdays-widget)
+* [`ianm/oauth-twitch`](https://github.com/imorland/flarum-ext-oauth-twitch)
+* [`justoverclock/discussion-tags`](https://extiverse.com/extension/justoverclock/discussion-tags)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime)
+* [`blomstra/search`](https://github.com/blomstra/flarum-ext-search)
+* [`blomstra/turnstile`](https://github.com/blomstra/flarum-ext-turnstile)
+* [`datlechin/flarum-birthdays`](https://github.com/datlechin/flarum-birthdays)
+* [`datlechin/flarum-link-preview`](https://github.com/datlechin/flarum-link-preview)
+* [`fof/share-social`](https://github.com/FriendsOfFlarum/share-social)
+* [`justoverclock/discussion-info`](https://github.com/justoverclockl/discussions-info)
+* [`justoverclock/popular-tags`](https://github.com/justoverclockl/popular-tags)
+* [`justoverclock/related-discussions`](https://extiverse.com/extension/justoverclock/related-discussions)
+
+
+Cambiamenti: [1.9.0...1.10.0](https://github.com/flarum-lang/italian/compare/1.9.0...1.10.0).
+
+
 1.9.0 (2022-12-19)
 ------------------
 
