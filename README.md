@@ -292,6 +292,7 @@ php flarum cache:clear
 | [`ralkage/flarum-hcaptcha`](https://github.com/Ralkage/flarum-hcaptcha) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/ralkage-hcaptcha/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/ralkage-hcaptcha/it/) |
 | [`sycho/flarum-github-milestone`](https://github.com/SychO9/flarum-github-milestone) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/sycho-github-milestone/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-github-milestone/it/) |
 | [`sycho/flarum-move-posts`](https://github.com/SychO9/flarum-move-posts) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/sycho-move-posts/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-move-posts/it/) |
+| [`sycho/flarum-private-facade`](https://github.com/SychO9/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/it/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-profile-cover/it/) |
 | [`the-turk/flarum-diff`](https://github.com/the-turk/flarum-diff) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/the-turk-diff/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-diff/it/) |
 | [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/the-turk-flamoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-flamoji/it/) |
@@ -335,7 +336,6 @@ php flarum cache:clear
 | [`justoverclock/steam-api`](https://extiverse.com/extension/justoverclock/steam-api) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/justoverclock-steam-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-steam-api/it/) |
 | [`justoverclock/theaudiodb-api`](https://extiverse.com/extension/justoverclock/theaudiodb-api) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/justoverclock-theaudiodb-api/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-theaudiodb-api/it/) |
 | [`justoverclock/website-live-screenshot`](https://extiverse.com/extension/justoverclock/website-live-screenshot) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/justoverclock-website-live-screenshot/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/justoverclock-website-live-screenshot/it/) |
-| [`sycho/flarum-private-facade`](https://extiverse.com/extension/sycho/flarum-private-facade) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/sycho-private-facade/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/sycho-private-facade/it/) |
 
 <!-- premium-extensions-list-stop -->
 
