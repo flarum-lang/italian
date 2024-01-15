@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+
+
+Cambiamenti: [1.11.0...1.12.0](https://github.com/flarum-lang/italian/compare/1.11.0...1.12.0).
+
+
 1.11.0 (2023-03-25)
 -------------------
 
