@@ -308,7 +308,6 @@ php flarum cache:clear
 | [`webbinaro/flarum-affiliator`](https://github.com/eddiewebb/flarum-affiliator) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/webbinaro-affiliator/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-affiliator/it/) |
 | [`webbinaro/flarum-age-check`](https://github.com/eddiewebb/flarum-age-check) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/webbinaro-age-check/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-age-check/it/) |
 | [`webbinaro/flarum-calendar`](https://github.com/eddiewebb/flarum-calendar) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/webbinaro-calendar/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/webbinaro-calendar/it/) |
-| [`zerosonesfun/flarum-bbcode-button`](https://github.com/zerosonesfun/flarum-bbcode-button) | [![Translation status](https://weblate.rob006.net/widgets/flarum/it/zerosonesfun-bbcode-button/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/zerosonesfun-bbcode-button/it/) |
 
 <!-- various-extensions-list-stop -->
 
