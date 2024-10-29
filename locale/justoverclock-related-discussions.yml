@@ -12,6 +12,7 @@ justoverclock-related-discussions:
     showExcerpt: 'Mostra riassunto post'
     showTooltip: 'Mostra tooltip con estratto del post'
   forum:
+    avatarTooltip: 'ha creato il post su'
     deleted: Cancellata
     hasBestAnswer: Risolto
     hasBestAnswer-title: 'Questa discussione è contrassegnata come risolta'

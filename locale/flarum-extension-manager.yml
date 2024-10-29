@@ -52,6 +52,7 @@ flarum-extension-manager:
         types:
           composer: composer
           path: percorso
+          vcs: vcs
       title: Composer
     exceptions:
       composer_command_failure: 'Impossibile eseguire. Controlla i log di composer in storage/logs/composer.'
@@ -127,9 +128,11 @@ flarum-extension-manager:
       queue_jobs_help: "Puoi leggere informazioni sull'implementazione della <a href='{basic_impl_link}'>coda di base</a> o su una <a href='{adv_impl_link}'>più avanzata</a>. Assicurati che la versione PHP utilizzata per la coda sia {php_version}. Assicurati che le <a href='{folder_perms_link}'>autorizzazioni cartella</a> siano configurate correttamente.\n"
       task_retention_days: 'Giorni di conservazione attività'
       task_retention_days_help: "Il numero di giorni per cui conservare le attività completate nel database. Le attività più vecchie di questa verranno eliminate. Impostato su 0 per mantenere tutte le attività.\n"
+      title: '=> core.ref.settings'
     update_successful: 'Flarum aggiornato con successo.'
     updater:
       check_for_updates: 'Controlla aggiornamenti'
+      flarum: 'Flarum Core'
       global_update_successful: 'Aggiornati con successo tutti i pacchetti.'
       last_update_checked_at: 'Ultimo check aggiornamenti: '
       run_global_update: 'Lancia aggiornamento globale'

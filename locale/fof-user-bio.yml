@@ -9,7 +9,15 @@ fof-user-bio:
       editOwn: 'Modificare la propria bio'
       view: 'Visualizzare la bio'
     setting:
+      allowFormatting: 'Consenti formattazione nella bio'
+      allowFormatting_help: 'Per impostazione predefinita, questa formattazione è separata dalla formattazione del post. Se le estensioni BBCode e/o Markdown sono abilitate, saranno disponibili per formattare la biografia. Non sono consentite immagini o incorporamenti. Le estensioni che si aggiungono al formattatore Flarum devono *esplicitamente* aggiungere il supporto per il formattatore della biografia.'
       bioLimit: 'Limite caratteri bio'
+      maxLines: 'Numero massimo di linee da mostrare'
   forum:
+    profile:
+      cancel_button: Cancella
+      cancel_confirm: 'Vuoi davvero annullare la modifica della tua biografia? Perderai tutte le modifiche apportate.'
+      edit_bio_label: 'Modifica bio'
+      save_button: Salva
     userbioPlaceholder: 'Scrivici qualcosa di te'
     userbioPlaceholderOtherUser: 'Qualche parola riguardo {username}'
