@@ -2,47 +2,34 @@ CHANGELOG
 =========
 
 
-1.12.0 (XXXX-XX-XX)
+1.13.1 (XXXX-XX-XX)
 -------------------
-
-**Cambiamenti generali**:
-
-* Aggiornate le traduzioni principali di Flarum.
-
-
-**Aggiunto supporto a nuove estensioni**:
-
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
-
-
-Cambiamenti: [1.11.0...1.12.0](https://github.com/flarum-lang/italian/compare/1.11.0...1.12.0).
-
-
-1.12.0 (XXXX-XX-XX)
--------------------
-
-**Cambiamenti generali**:
-
-* Aggiornate le traduzioni principali di Flarum.
-
-
-**Aggiunto supporto a nuove estensioni**:
-
-* [`blomstra/database-queue`](https://github.com/blomstra/flarum-ext-database-queue)
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
-* [`justoverclock/export-post-to-pdf`](https://flarum.org/extension/justoverclock/export-post-to-pdf)
-* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
-
 
 **Traduzioni aggiornate per le estensioni**:
 
-* [`flarum/likes`](https://github.com/flarum/likes)
-* [`flarum/mentions`](https://github.com/flarum/mentions)
-* [`fof/links`](https://github.com/FriendsOfFlarum/links)
-* [`fof/user-bio`](https://github.com/FriendsOfFlarum/user-bio)
-* [`justoverclock/auto-post-count-badge`](https://github.com/justoverclockl/auto-post-count-badge)
-* [`justoverclock/flarum-ext-purify`](https://github.com/justoverclockl/flarum-ext-purify)
-* [`justoverclock/related-discussions`](https://flarum.org/extension/justoverclock/related-discussions)
+* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+
+
+Cambiamenti: [1.13.0...1.13.1](https://github.com/flarum-lang/italian/compare/1.13.0...1.13.1).
+
+
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.12.0...1.13.0](https://github.com/flarum-lang/italian/compare/1.12.0...1.13.0).
+
+
+1.12.0 (XXXX-XX-XX)
+-------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
 
 Cambiamenti: [1.11.0...1.12.0](https://github.com/flarum-lang/italian/compare/1.11.0...1.12.0).
