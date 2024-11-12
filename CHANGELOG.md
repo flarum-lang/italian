@@ -2,18 +2,19 @@ CHANGELOG
 =========
 
 
-1.15.0 (XXXX-XX-XX)
+1.15.1 (XXXX-XX-XX)
 -------------------
-
-**Aggiunto supporto a nuove estensioni**:
-
-* [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges)
-
 
 **Traduzioni aggiornate per le estensioni**:
 
 * [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
 
+
+Cambiamenti: [1.15.0...1.15.1](https://github.com/flarum-lang/italian/compare/1.15.0...1.15.1).
+
+
+1.15.0 (XXXX-XX-XX)
+-------------------
 
 Cambiamenti: [1.14.0...1.15.0](https://github.com/flarum-lang/italian/compare/1.14.0...1.15.0).
 
