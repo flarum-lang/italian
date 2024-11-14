@@ -2,15 +2,21 @@ CHANGELOG
 =========
 
 
-1.15.1 (XXXX-XX-XX)
+1.17.0 (XXXX-XX-XX)
 -------------------
 
-**Traduzioni aggiornate per le estensioni**:
+**Aggiunto supporto a nuove estensioni**:
 
-* [`justoverclock/reputation-score`](https://flarum.org/extension/justoverclock/reputation-score)
+* [`flarum/gdpr`](https://github.com/flarum/gdpr)
 
 
-Cambiamenti: [1.15.0...1.15.1](https://github.com/flarum-lang/italian/compare/1.15.0...1.15.1).
+Cambiamenti: [1.16.0...1.17.0](https://github.com/flarum-lang/italian/compare/1.16.0...1.17.0).
+
+
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.15.0...1.16.0](https://github.com/flarum-lang/italian/compare/1.15.0...1.16.0).
 
 
 1.15.0 (XXXX-XX-XX)
