@@ -7,11 +7,24 @@ fof-recaptcha:
     permissions:
       post_without_captcha: 'Crea post e discussioni senza captcha'
     settings:
+      forgot: '=> core.forum.forgot_password.title'
       help_text: 'Ottieni credenziali Google reCAPTCHA  <a>qui</a>.'
       secret_key_label: 'Chiave segreta'
+      signin: '=> core.forum.log_in.title'
+      signup: '=> core.forum.sign_up.title'
       site_key_label: 'Chiave sito'
+      type_help: 'Questa estensione supporta solo reCAPTCHA v2. Il tipo selezionato deve corrispondere al tipo delle tue credenziali reCAPTCHA.'
       type_label: 'Tipo reCAPTCHA'
+    test:
+      help_text: "Questo test utilizzerà i valori correnti immessi sopra. Assicurati di ricaricare il test dopo aver modificato le impostazioni e non dimenticare di salvare una volta che il test è stato superato!\nDi seguito potrebbero non essere riportate le impostazioni salvate.\n"
+      load_test_button: Carica
+      reload_button: Ricarica
+      submit_button: Invia
+      success_message: 'Riuscito! reCAPTCHA è configurato correttamente.'
+      title: 'Testa reCAPTCHA'
   forum:
     error: 'Si è verificato un errore inviando reCAPTCHA. Prova di nuovo.'
+    unknown_error: 'Errore sconosciuto. Controlla il captcha e riprova.'
 validation:
   recaptcha: 'Validazione reCAPTCHA fallita.'
+  recaptcha-unknown: 'Si è verificato un errore sconosciuto durante la convalida di reCAPTCHA ({errors}).'
