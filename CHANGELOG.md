@@ -7,7 +7,18 @@ CHANGELOG
 
 **Aggiunto supporto a nuove estensioni**:
 
+* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode)
 * [`flarum/gdpr`](https://github.com/flarum/gdpr)
+* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
+* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+
+
+**Traduzioni aggiornate per le estensioni**:
+
+* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`fof/split`](https://github.com/FriendsOfFlarum/split)
 
 
 Cambiamenti: [1.16.0...1.17.0](https://github.com/flarum-lang/italian/compare/1.16.0...1.17.0).
