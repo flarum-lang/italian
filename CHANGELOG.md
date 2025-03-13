@@ -2,24 +2,34 @@ CHANGELOG
 =========
 
 
-1.17.0 (XXXX-XX-XX)
+1.18.0 (XXXX-XX-XX)
 -------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
 
 **Aggiunto supporto a nuove estensioni**:
 
-* [`clarkwinkelmann/flarum-ext-discussion-bookmarks`](https://github.com/clarkwinkelmann/flarum-ext-discussion-bookmarks)
-* [`flarum/bbcode`](https://github.com/flarum/bbcode)
-* [`flarum/gdpr`](https://github.com/flarum/gdpr)
-* [`fof/discussion-thumbnail`](https://github.com/FriendsOfFlarum/discussion-thumbnail)
-* [`fof/passport`](https://github.com/FriendsOfFlarum/passport)
+* [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
+* [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
+* [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
+* [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 
 
 **Traduzioni aggiornate per le estensioni**:
 
-* [`fof/geoip`](https://github.com/FriendsOfFlarum/geoip)
-* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
-* [`fof/split`](https://github.com/FriendsOfFlarum/split)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 
+
+Cambiamenti: [1.17.0...1.18.0](https://github.com/flarum-lang/italian/compare/1.17.0...1.18.0).
+
+
+1.17.0 (XXXX-XX-XX)
+-------------------
 
 Cambiamenti: [1.16.0...1.17.0](https://github.com/flarum-lang/italian/compare/1.16.0...1.17.0).
 
