@@ -513,6 +513,9 @@ core:
       hidden_tooltip: Nascosto
     data_segment:
       label: '{label}:'
+    datetime_formats:
+      humanTimeShort: 'G MMM'
+      scrubber: 'MMMM AAAA'
     debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Attiva/disattiva il menu a discesa'
