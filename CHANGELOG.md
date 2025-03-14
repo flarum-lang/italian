@@ -21,8 +21,14 @@ CHANGELOG
 **Traduzioni aggiornate per le estensioni**:
 
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`flarum/suspend`](https://github.com/flarum/suspend)
+* [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 
 
 Cambiamenti: [1.17.0...1.18.0](https://github.com/flarum-lang/italian/compare/1.17.0...1.18.0).
