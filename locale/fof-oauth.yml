@@ -5,8 +5,20 @@
 fof-oauth:
   admin:
     configure_button_label: 'Configura con FoF OAuth'
+    permissions:
+      moderate_user_providers: 'Account collegati all''utente moderato'
     settings:
+      advanced:
+        heading: Avanzato
+        log-oauth-errors-help: 'Se abilitata, gli errori OAuth verranno registrati nel registro Flarum. Ciò potrebbe essere utile al debug dei problemi di OAuth, ma potrebbe anche contenere informazioni sensibili.'
+        log-oauth-errors-label: 'Errori log OAuth'
+      fullscreen_popup_help: 'Se abilitata, il login OAuth si aprirà in una finestra a schermo intero e le impostazioni di larghezza e altezza verranno ignorate.'
+      fullscreen_popup_label: 'Usa finestra a schermo intero per OAuth'
       only_icons_label: 'Mostra solo le icone dei bottoni (layout alternativo)'
+      popup_height_help: 'Imposta l''altezza della finestra OAuth. Questa impostazione verrà ignorata se "Usa finestra a schermo intero per OAuth" è abilitata.'
+      popup_height_label: 'Altezza finestra OAuth'
+      popup_width_help: 'Imposta la larghezza della finestra OAuth. Questa impostazione verrà ignorata se "Usa finestra a schermo intero per OAuth" è abilitata.'
+      popup_width_label: 'Larghezza finestra OAuth'
       providers:
         callback_url_text: 'Se necessario, imposta il callback su {url}.'
         discord:
@@ -30,6 +42,7 @@ fof-oauth:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
           description: 'Crea un app all''indirizzo {link}.'
+          hosted_domain_label: 'Dominio ospitato (G Suite/Google Apps for Business, facoltativo)'
         linkedin:
           client_id_label: '=> fof-oauth.ref.settings.client_id'
           client_secret_label: '=> fof-oauth.ref.settings.client_secret'
@@ -38,6 +51,8 @@ fof-oauth:
           api_key_label: 'Chiave API'
           api_secret_label: 'Codice segreto API'
           description: 'Crea un app all''indirizzo {link}. Dovrai impostare un URL per i Termini di Servizio e Informativa sulla Privacy. Assicurati di farlo poi aggiungi il permesso per richiedere le email.'
+      update_email_from_provider_help: 'Se abilitata, l''indirizzo email dell''utente verrà aggiornato per corrispondere a quello fornito dal provider OAuth a ogni accesso al forum. Non tutti i provider forniscono l''email aggiornata, nel qual caso questa impostazione non avrà alcun effetto con tali provider.'
+      update_email_from_provider_label: 'Aggiorna l''indirizzo email del provider'
     settings_accessibility_label: '{name} impostazioni'
   forum:
     error:
@@ -67,6 +82,7 @@ fof-oauth:
       settings:
         linked-account:
           help: 'Questi account collegati ti consentono di accedere al forum utilizzando altri provider.'
+          identification-label: 'ID {provider}'
           identifier-label: '{provider} ID'
           label: 'Account collegato'
           last-used-label: 'Ultimo utilizzato'

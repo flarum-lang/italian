@@ -11,6 +11,8 @@ fof-ignore-users:
       discussion_label: 'Iniziato da un utente ignorato'
       user_label: 'Utente ignorato'
     profile_link: 'Utenti Ignorati'
+    profile_page:
+      no_ignored: 'Sembra che tu non stia ignorando nessuno.'
     user_controls:
       ignore_button: Ignora
       ignore_confirmation: 'Sei sicuro di voler ignorare questo utente?'
