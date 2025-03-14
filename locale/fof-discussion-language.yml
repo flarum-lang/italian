@@ -8,12 +8,17 @@ fof-discussion-language:
       allow_change_language_label: 'Consenti la modifica della lingua'
     settings:
       composer_default_label: 'Preseleziona la lingua nel compositore di discussioni'
+      config:
+        country_label: 'Paese (per mostrare la bandiera)'
+        language_label: Lingua
       errors:
         loading_data: 'Si è verificato un errore durante il recupero dei dati locali e nazionali. Prova a disabilitare e riattivare l''estensione.'
+        missing_assets: 'Impossibile caricare le risorse necessarie per questa estensione. Provare a eseguire <code>php flarum assets:publish</code> e verificare se il problema si risolve.'
       locale_sort_label: 'Usa la lingua rilevata per il filtro discussione predefinito'
       native_label: 'Usa nome lingua nativa'
-      show_any_lang_opt_label: 'Mostra opzione per selezionare "Qualsiasi Lingua".'
+      show_any_lang_opt_label: 'Mostra opzione per selezionare "Qualsiasi Lingua"'
       show_flag_label: 'Mostra le bandiere dei paesi con i nomi delle lingue'
+      tags_page_discussion_locale_label: 'Mostra solo le discussioni provenienti dalle impostazioni locali correnti dell''utente nella pagina Tag'
   api:
     discussion:
       validation_error: 'Devi selezionare la lingua della discussione.'
@@ -28,3 +33,6 @@ fof-discussion-language:
       change_language_button: 'Imposta Lingua'
     index_language:
       any: 'Qualsiasi Lingua'
+    sub_controls:
+      subscription_language_help: 'Quando qui si seleziona una lingua, si verrà avvisati solo delle nuove attività in quella lingua.'
+      subscription_language_label: 'Lingua di discussione'

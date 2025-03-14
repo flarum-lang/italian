@@ -19,3 +19,12 @@ fof-impersonate:
       title: 'Loggati come altro utente'
     user_controls:
       impersonate_button: 'Loggati come utente'
+  lib:
+    modal:
+      impersonate_username: 'Connettiti come {username}'
+      label: 'Da un grande potere derivano grandi responsabilità. Continuando, diventerai {username} finché non ti disconnetterai.'
+      placeholder_optional: '(Opzionale) Fornire la motivazione per passare a questo utente'
+      placeholder_required: 'Bisogna fornire il motivo per cui si vuole passare a questo utente prima di procedere'
+      title: 'Connettiti come altro utente'
+    user_controls:
+      impersonate_button: 'Connettiti come utente'
