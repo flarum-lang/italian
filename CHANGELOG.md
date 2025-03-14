@@ -26,9 +26,16 @@ CHANGELOG
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
 * [`fof/discussion-language`](https://github.com/FriendsOfFlarum/discussion-language)
+* [`fof/ignore-users`](https://github.com/FriendsOfFlarum/ignore-users)
 * [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/linguist`](https://github.com/FriendsOfFlarum/linguist)
+* [`fof/masquerade`](https://github.com/FriendsOfFlarum/masquerade)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
+* [`fof/oauth`](https://github.com/FriendsOfFlarum/oauth)
+* [`fof/polls`](https://github.com/FriendsOfFlarum/polls)
 
 
 Cambiamenti: [1.17.0...1.18.0](https://github.com/flarum-lang/italian/compare/1.17.0...1.18.0).
