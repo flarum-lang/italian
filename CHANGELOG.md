@@ -15,6 +15,7 @@ CHANGELOG
 * [`akr/chevereto`](https://github.com/AKR-Developers/flarum-chevereto)
 * [`annonny/flarum-dice`](https://github.com/mizhiyugan529/flarum-dice)
 * [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
+* [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
 
 
