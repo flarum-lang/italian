@@ -5,16 +5,34 @@
 blomstra-horizon:
   admin:
     settings:
-      trim_help: "Qui si può configurare per quanto tempo (in minuti) si vuole che Horizon mantenga\n i lavori recenti non riusciti. In genere, i lavori recenti vengono conservati per un'ora,\nmentre tutti i lavori non riusciti vengono archiviati per un'intera settimana.\n"
+      trim_completed_help: "Questa tabella viene utilizzata per visualizzare i lavori completati nel pannello di controllo di Horizon.\n"
+      trim_failed_help: "Questa tabella viene utilizzata per visualizzare i processi falliti nel pannello di controllo di Horizon.\n"
+      trim_help: "Qui si può configurare per quanto tempo (in minuti) si vuole che Horizon mantenga\ni lavori recenti non riusciti. In genere, i lavori recenti vengono conservati per un'ora,\nmentre tutti i lavori non riusciti vengono archiviati per un'intera settimana.\n"
+      trim_monitored_help: "Questa tabella viene utilizzata per visualizzare i lavori monitorati nel pannello di controllo di Horizon.\n"
+      trim_pending_help: "Questa tabella viene utilizzata per visualizzare i lavori in sospeso nel pannello di controllo di Horizon.\n"
+      trim_recent_failed_help: "Questa tabella viene utilizzata per visualizzare i recenti processi non riusciti nel pannello di controllo di Horizon.\n"
+      trim_recent_help: "Questa tabella viene utilizzata per visualizzare i lavori recenti nel pannello di controllo di Horizon.\n"
     stats:
       auto_refresh: 'Aggiornamento automatico'
       data:
-        max-wait-time: 'Tempo max attesa'
+        failed-last-seconds: 'Lavori falliti degli ultimi secondi'
+        jobs-past-hour: 'Lavori ultima ora'
+        jobs-per-minute: 'Lavori al minuto'
+        max-runtime: 'Tempo di esecuzione max'
+        max-throughput: 'Performance max'
+        max-wait-time: 'Tempo attesa max'
+        redis-cpu-sys: 'Sys CPU Redis'
+        redis-cpu-user: 'Utente CPU Redis'
+        redis-max-memory: 'Memoria massima di Redis'
+        redis-memory-policy: 'Politica della memoria di Redis'
+        redis-memory-policy-tooltip: "La politica di memoria è il modo in cui Redis selezionerà cosa rimuovere quando viene\nraggiunto il limite massimo di memoria. Il valore predefinito è `noeviction`: i nuovi valori\nnon vengono salvati quando viene raggiunto il limite di memoria. Fai clic per visualizzare la documentazione.\n"
+        redis-peak-memory: 'Memoria usata di picco da Redis'
+        redis-used-memory: 'Memoria usata da Redis'
         status:
           inactive: Inattivo
           label: Stato
           running: 'In esecuzione'
         total-processes: 'Processi totali'
-      full_dashboard: 'Pannello di controllo Horizon'
+      full_dashboard: 'Pannello di controllo di Horizon'
       heading: 'Panoramica coda'
-      refresh: Ricarica
+      refresh: Aggiorna
