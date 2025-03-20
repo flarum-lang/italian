@@ -20,6 +20,7 @@ clarkwinkelmann-anonymous-posting:
       composerHelpTextPositionHidden: Nascosto
       composerHelpTextPositionTooltip: 'Tooltip (dopo la label)'
       composerHelpTextPositionVisible: 'Visibile (sotto la label)'
+      defaultAnonymity: 'Nuovo contenuto anonimo per impostazione predefinita'
   forum:
     composerControls:
       anonymize: 'Pubblica in modo anonimo'
