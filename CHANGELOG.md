@@ -17,6 +17,14 @@ CHANGELOG
 * [`archlinux-de/flarum-click-image`](https://github.com/archlinux-de/flarum-click-image)
 * [`blomstra/horizon`](https://github.com/blomstra/flarum-ext-horizon)
 * [`blomstra/s3-assets`](https://github.com/blomstra/flarum-ext-s3-assets)
+* [`blomstra/web3`](https://github.com/blomstra/flarum-ext-web3)
+* [`blt950/oauth-generic`](https://github.com/blt950/flarum-ext-oauth-generic)
+* [`cadiducho/bbcode`](https://github.com/EdorasMinecraft/BBcode)
+* [`cccyun/flarum-clogin-oauth`](https://github.com/netcccyun/flarum-clogin-oauth)
+* [`clarkwinkelmann/catch-the-fish`](https://github.com/clarkwinkelmann/catch-the-fish)
+* [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
+* [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
+* [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
 
 
 **Traduzioni aggiornate per le estensioni**:
@@ -24,6 +32,7 @@ CHANGELOG
 * [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
