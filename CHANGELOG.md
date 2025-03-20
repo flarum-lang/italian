@@ -25,6 +25,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-colorful-borders`](https://github.com/clarkwinkelmann/flarum-ext-colorful-borders)
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
+* [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
 
 
 **Traduzioni aggiornate per le estensioni**:
