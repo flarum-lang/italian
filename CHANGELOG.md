@@ -27,6 +27,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 
 
 **Traduzioni aggiornate per le estensioni**:
