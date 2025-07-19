@@ -16,6 +16,7 @@ clarkwinkelmann-mailing:
       mail_all: 'Invia Email'
       mail_individual: 'Invia Email a questo utente'
     modal_mail:
+      as_html_label: 'Invia come HTML'
       default_subject: '=> clarkwinkelmann-mailing.ref.default_subject'
       message_label: Messaggio
       recipients_label: Destinatari
