@@ -31,6 +31,7 @@ CHANGELOG
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
 
 
 **Traduzioni aggiornate per le estensioni**:
