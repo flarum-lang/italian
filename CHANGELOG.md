@@ -28,6 +28,7 @@ CHANGELOG
 * [`clarkwinkelmann/flarum-ext-composer-page`](https://github.com/clarkwinkelmann/flarum-ext-composer-page)
 * [`clarkwinkelmann/flarum-ext-default-image-alt`](https://github.com/clarkwinkelmann/flarum-ext-default-image-alt)
 * [`flamarkt/taxonomies`](https://github.com/flamarkt/taxonomies)
+* [`flectar/flarum-turnstile`](https://github.com/flectar/flarum-ext-turnstile)
 * [`fof/discussion-views`](https://github.com/FriendsOfFlarum/discussion-views)
 * [`fof/synopsis`](https://github.com/FriendsOfFlarum/synopsis)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
