@@ -42,6 +42,7 @@ CHANGELOG
 * [`afrux/online-users-widget`](https://github.com/afrux/online-users-widget)
 * [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting)
 * [`clarkwinkelmann/flarum-ext-mailing`](https://github.com/clarkwinkelmann/flarum-ext-mailing)
+* [`datlechin/flarum-copy-links`](https://github.com/datlechin/flarum-copy-links)
 * [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
