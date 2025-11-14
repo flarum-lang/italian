@@ -193,6 +193,7 @@ core:
       participate_heading: Partecipazione
       post_without_throttle_label: 'Rispondi più volte senza attendere'
       read_heading: Lettura
+      remove_scope_label: 'Rimuovi ambito di {scope}'
       rename_discussions_label: 'Rinomina discussioni'
       reply_to_discussions_label: 'Rispondere alle discussioni'
       search_users_label: '=> core.ref.search_users'
@@ -514,6 +515,7 @@ core:
     data_segment:
       label: '{label}:'
     datetime_formats:
+      humanTimeLong: ll
       humanTimeShort: 'G MMM'
       scrubber: 'MMMM AAAA'
     debug_button: Debug

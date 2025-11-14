@@ -7,14 +7,24 @@ fof-polls:
     permissions:
       change_vote: 'Cambia voto'
       moderate: 'Modifica e rimozione sondaggi'
+      moderate_group: 'Modifica e rimuovi gruppi sondaggio'
       self_edit: 'Modifica i sondaggi creati (richiede l''autorizzazione alla modifica del post)'
       self_post_edit: 'Modifica *tutti* i sondaggi sui tuoi post (richiede l''autorizzazione di modifica dei post)'
       start: 'Avviare un sondaggio'
       start_global: 'Avvia un sondaggio globale'
+      start_group: 'Crea gruppi sondaggio'
       upload_images: 'Consentire agli utenti di caricare immagini per i sondaggi'
+      view_group: 'Vedi gruppi sondaggio'
       view_results_without_voting: 'Vedi risultati senza votare'
       vote: 'Votare nei Sondaggi'
     settings:
+      allow_image_uploads: 'Consenti il caricamento di immagini per i sondaggi e le relative opzioni'
+      allow_image_uploads_help: 'Se abilitato, gli utenti potranno caricare immagini e fornire anche un URL dell''immagine (se abilitato per le opzioni, è sempre abilitato per il sondaggio stesso).'
+      allow_option_image: 'Consentire di fornire un URL immagine per ogni opzione del sondaggio'
+      enable_global_polls: 'Abilita sondaggi globalmente'
+      enable_global_polls_help: 'I sondaggi globali non sono legati a un post specifico e sono accessibili da una pagina dedicata ai sondaggi.'
+      enabled_poll_groups: 'Abilita gruppi sondaggio'
+      enabled_poll_groups_help: 'I gruppi di sondaggi consentono di raggruppare i sondaggi globali e di visualizzarli in una pagina dedicata.'
       general:
         heading: 'Impostazioni generali'
         help: 'Queste impostazioni controllano le funzionalità di base dell''estensione Polls.'
@@ -26,6 +36,7 @@ fof-polls:
         help: 'Queste impostazioni controllano le impostazioni delle immagini per i sondaggi.'
       image_height: 'Ridimensiona altezza immagine'
       image_width: 'Ridimensiona larghezza immagine'
+      max_options: 'Numero di opzioni massime per sondaggio'
       options_color_blend: 'Miscelazione colori del testo nel sondaggio'
       options_color_blend_help: 'Usare questa opzione per la miscelazione dei colori in modo da rendere i sondaggi più leggibili. Disattivare se questa funzionalità causa problemi all''aspetto del forum, riducendone la leggibilità.'
   forum:
@@ -42,13 +53,16 @@ fof-polls:
       edit_poll: '=> fof-polls.forum.moderation.edit'
       no_permission_alert: 'Non hai l''autorizzazione per avviare un sondaggio.'
     days_remaining: 'Fine Sondaggio {time}.'
-    max_votes_allowed: 'Il sondaggio consente di votare per {max, plural, one {# option} other {# options}}.'
+    max_votes_allowed: 'Il sondaggio consente di votare per {max, plural, one {# opzione} other {# opzioni}}.'
     modal:
       add_option_label: 'Aggiungi opzione'
       add_title: 'Aggiungi Sondaggio'
+      allow_change_vote_label: 'Consenti agli utenti di modificare il loro voto'
       allow_multiple_votes_label: 'Consenti alle persone di votare per più opzioni'
       date_placeholder: 'Data fine sondaggio (Opzionale)'
+      delete: '=> core.ref.delete'
       edit_title: 'Modifica Sondaggio'
+      error: '=> core.lib.error.generic_message'
       hide_votes_label: 'Nascondi i voti fino alla fine del sondaggio'
       hide_votes_label_help: 'L''utente che ha avviato il sondaggio potrà sempre vedere i voti.'
       image_option_placeholder: 'URL immagine (facoltativo)'
@@ -60,19 +74,38 @@ fof-polls:
       no_voters: 'Nessun voto'
       option_placeholder: Risposta
       options_label: Risposte
+      poll_image:
+        alt_help_text: 'Questo testo è obbligatorio quando si imposta un''immagine; verrà visualizzato se l''immagine non riesce a caricarsi.'
+        alt_label: 'Testo alternativo dell''immagine'
+        help: 'Carica un''immagine da visualizzare insieme al sondaggio (facoltativo).'
+        label: 'Immagine del sondaggio'
+        later_help: 'Dopo aver creato il sondaggio, potrai caricare un''immagine.'
+      poll_option_image:
+        help: 'Carica un''immagine da visualizzare insieme alla risposta al sondaggio (facoltativo).'
+        label: 'Immagine della risposta al sondaggio'
       public_poll_label: 'Consenti alle persone di vedere chi ha votato'
       question_placeholder: Domanda
       submit: Invia
+      subtitle_placeholder: 'Sottotitolo/Descrizione (facoltativo)'
+      tooltip:
+        options:
+          add-button: 'Aggiungi risposta'
     moderation:
+      add: 'Aggiungi sondaggio'
       delete: 'Rimuovi Sondaggio'
       delete_confirm: 'Sei sicuro di voler eliminare questo sondaggio?'
       edit: 'Modifica sondaggio'
     no_permission: 'Non possiedi i permessi per votare'
+    page:
+      nav: Sondaggi
+      nav-all: 'Tutti i sondaggi globali'
+      nav-groups: 'Gruppi di sondaggio'
     poll:
       cannot_change_vote: 'Impossibile modificare il voto dopo averlo espresso.'
       cannot_start_poll_button: 'Impossibile avviare il sondaggio'
       start_poll_button: 'Avvia sondaggio globale'
       submit_button: Voto
+      total_votes: '{count, plural, one {# voto assegnato} other {# voti assegnati}}'
     poll_controls:
       delete_confirmation: 'Sei sicuro di voler eliminare questo sondaggio?'
       delete_error_message: 'Si è verificato un errore durante l''eliminazione del sondaggio.'
@@ -84,15 +117,49 @@ fof-polls:
     poll_form:
       delete: 'Elimina sondaggio'
       error: 'Si è verificato un errore durante il salvataggio del sondaggio. Contattare un amministratore.'
+    poll_groups:
+      composer:
+        add_title: 'Aggiungi gruppo sondaggio'
+        delete: 'Elimina gruppo sondaggio'
+        edit_title: 'Modifica gruppo sondaggio'
+        groups_manager: 'Gestione gruppi sondaggio'
+        save_changes: '=> core.ref.save_changes'
+        success: 'Gruppo sondaggio salvato con successo.'
+        view_group: 'Guarda gruppo sondaggio'
+      controls:
+        add_poll_label: 'Aggiungi sondaggio'
+        delete_confirmation: 'Sei sicuro di voler eliminare questo gruppo di sondaggi?'
+        delete_error_message: 'Si è verificato un problema durante l''eliminazione del gruppo di sondaggi.'
+        delete_label: '=> core.ref.delete'
+        delete_success_message: 'Gruppo di sondaggio eliminato con successo.'
+        edit_label: '=> core.ref.edit'
+        view_label: 'Visualizza il gruppo di sondaggi'
+      list_page:
+        add_poll_button: 'Aggiungi sondaggio al gruppo'
+        cannot_start_poll_group_button: 'Impossibile avviare sondaggio di gruppo'
+        empty_text: 'Sembra che qui non ci siano gruppi di sondaggio.'
+        load_more_button: '=> core.ref.load_more'
+        no_polls: 'Non ci sono sondaggi in questo gruppo.'
+        start_poll_group_button: 'Avvia un sondaggio di gruppo'
+        title: 'Gruppi sondaggio'
     poll_never_ends: 'Il sondaggio non finisce mai'
+    polls_count: '{count, plural, one { {count} voto} other {{count} voti}}'
     polls_list:
       empty_text: 'Sembra che qui non ci siano sondaggi a livello di comunità.'
       load_more_button: '=> core.ref.load_more'
     polls_page:
       title: Sondaggi
     public_poll: 'Visualizza votanti'
+    showcase:
+      active-polls: 'Sondaggi attivi'
+      ended-polls: 'Sondaggi conclusi'
+      no-active-polls: 'Al momento non ci sono sondaggi attivi.'
+      no-recent-polls: 'Al momento non ci sono sondaggi conclusi di recente.'
     tooltip:
       badge: Sondaggio
       votes: '{count, plural, one {# voto} other {# voti}}'
+    upload_image:
+      remove_button: 'Elimina immagine'
+      upload_button: 'Carica immagine'
     votes_modal:
       title: Votanti
