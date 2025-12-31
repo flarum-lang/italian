@@ -516,7 +516,7 @@ core:
       label: '{label}:'
     datetime_formats:
       humanTimeLong: ll
-      humanTimeShort: 'D MMM'
+      humanTimeShort: 'G MMM'
       scrubber: 'MMMM AAAA'
     debug_button: Debug
     dropdown:
