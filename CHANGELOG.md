@@ -2,7 +2,7 @@ CHANGELOG
 =========
 
 
-1.19.1 (XXXX-XX-XX)
+1.19.1 (2025-12-31)
 -------------------
 
 **Cambiamenti generali**:
