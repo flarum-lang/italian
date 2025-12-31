@@ -2,6 +2,59 @@ CHANGELOG
 =========
 
 
+1.19.1 (XXXX-XX-XX)
+-------------------
+
+**Cambiamenti generali**:
+
+* Aggiornate le traduzioni principali di Flarum.
+
+
+Cambiamenti: [1.19.0...1.19.1](https://github.com/flarum-lang/italian/compare/1.19.0...1.19.1).
+
+
+1.19.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.18.0...1.19.0](https://github.com/flarum-lang/italian/compare/1.18.0...1.19.0).
+
+
+1.18.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.17.0...1.18.0](https://github.com/flarum-lang/italian/compare/1.17.0...1.18.0).
+
+
+1.17.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.16.0...1.17.0](https://github.com/flarum-lang/italian/compare/1.16.0...1.17.0).
+
+
+1.16.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.15.0...1.16.0](https://github.com/flarum-lang/italian/compare/1.15.0...1.16.0).
+
+
+1.15.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.14.0...1.15.0](https://github.com/flarum-lang/italian/compare/1.14.0...1.15.0).
+
+
+1.14.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.13.0...1.14.0](https://github.com/flarum-lang/italian/compare/1.13.0...1.14.0).
+
+
+1.13.0 (XXXX-XX-XX)
+-------------------
+
+Cambiamenti: [1.12.0...1.13.0](https://github.com/flarum-lang/italian/compare/1.12.0...1.13.0).
+
+
 1.12.0 (XXXX-XX-XX)
 -------------------
 
