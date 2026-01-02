@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.2 (2026-01-02)
+-------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`fof/discussion-templates`](https://github.com/FriendsOfFlarum/discussion-templates)
+
+
+Cambiamenti: [1.19.1...1.19.2](https://github.com/flarum-lang/italian/compare/1.19.1...1.19.2).
+
+
 1.19.1 (2025-12-31)
 -------------------
 
