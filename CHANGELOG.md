@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.3 (2026-01-31)
+-------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`glowingblue/author-filter`](https://github.com/glowingblue/flarum-ext-author-filter)
+
+
+Cambiamenti: [1.19.2...1.19.3](https://github.com/flarum-lang/italian/compare/1.19.2...1.19.3).
+
+
 1.19.2 (2026-01-02)
 -------------------
 
