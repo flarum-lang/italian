@@ -4,6 +4,11 @@
 
 core:
   admin:
+    advanced:
+      description: 'Configura le impostazioni avanzate del tuo forum.'
+      maintenance:
+        bisect:
+          help: 'Aiuta a identificare l''estensione che sta causando i problemi riscontrati. Questo mette automaticamente il forum in modalità manutenzione (bassa) finché il processo non è terminato.'
     appearance:
       colored_header_label: 'Header colorato'
       colors_heading: Colori
