@@ -11,7 +11,7 @@ un vasto assortimento di estensioni di terze parti tradotte e pronte all'uso!
 ## Installazione
 
 ```bash
-composer require flarum-lang/italian
+composer require "flarum-lang/italian:*"
 ```
 
 ## Aggiornamento
