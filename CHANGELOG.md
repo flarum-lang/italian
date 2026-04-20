@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.1 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+
+
+Cambiamenti: [2.0.0...2.0.1](https://github.com/flarum-lang/italian/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
