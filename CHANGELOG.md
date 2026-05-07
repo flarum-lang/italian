@@ -7,6 +7,7 @@ CHANGELOG
 
 **Aggiunto supporto a nuove estensioni**:
 
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 
 
