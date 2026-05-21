@@ -9,6 +9,7 @@ CHANGELOG
 
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 
 
 Cambiamenti: [2.0.0...2.0.1](https://github.com/flarum-lang/italian/compare/2.0.0...2.0.1).
