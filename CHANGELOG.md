@@ -7,6 +7,7 @@ CHANGELOG
 
 **Aggiunto supporto a nuove estensioni**:
 
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
 * [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
 * [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
