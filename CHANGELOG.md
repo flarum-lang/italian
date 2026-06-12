@@ -2,6 +2,24 @@ CHANGELOG
 =========
 
 
+2.0.1 (2026-06-12)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`antoinefr/flarum-ext-money`](https://github.com/AntoineFr/flarum-ext-money)
+* [`datlechin/flarum-title-length`](https://github.com/datlechin/flarum-title-length)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/doorman`](https://github.com/FriendsOfFlarum/doorman)
+* [`fof/recaptcha`](https://github.com/FriendsOfFlarum/recaptcha)
+* [`glowingblue/password-strength`](https://github.com/glowingblue/flarum-ext-password-strength)
+* [`ianm/online-guests`](https://github.com/imorland/flarum-ext-online-guests-widget)
+* [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
+
+
+Cambiamenti: [2.0.0...2.0.1](https://github.com/flarum-lang/italian/compare/2.0.0...2.0.1).
+
+
 2.0.0 (2026-04-18)
 ------------------
 
