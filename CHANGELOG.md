@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.2 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+
+
+Cambiamenti: [2.0.1...2.0.2](https://github.com/flarum-lang/italian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-06-12)
 ------------------
 
