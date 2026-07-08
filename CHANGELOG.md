@@ -8,6 +8,7 @@ CHANGELOG
 **Aggiunto supporto a nuove estensioni**:
 
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
 Cambiamenti: [2.0.1...2.0.2](https://github.com/flarum-lang/italian/compare/2.0.1...2.0.2).
