@@ -8,6 +8,7 @@ CHANGELOG
 **Aggiunto supporto a nuove estensioni**:
 
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
 
 
