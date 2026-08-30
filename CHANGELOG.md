@@ -7,6 +7,7 @@ CHANGELOG
 
 **Aggiunto supporto a nuove estensioni**:
 
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
 * [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
 * [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
 * [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
