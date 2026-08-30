@@ -2,6 +2,22 @@ CHANGELOG
 =========
 
 
+2.0.2 (2026-08-30)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`datlechin/flarum-keyboard-shortcuts`](https://github.com/datlechin/flarum-keyboard-shortcuts)
+* [`fof/amazon-affiliation`](https://github.com/FriendsOfFlarum/amazon-affiliation)
+* [`fof/blog`](https://github.com/FriendsOfFlarum/blog)
+* [`fof/cookie-consent`](https://github.com/FriendsOfFlarum/cookie-consent)
+* [`fof/filter`](https://github.com/FriendsOfFlarum/filter)
+* [`huseyinfiliz/notificationhub`](https://github.com/huseyinfiliz/notificationhub)
+
+
+Cambiamenti: [2.0.1...2.0.2](https://github.com/flarum-lang/italian/compare/2.0.1...2.0.2).
+
+
 2.0.1 (2026-06-12)
 ------------------
 
