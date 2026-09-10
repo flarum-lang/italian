@@ -7,6 +7,7 @@ CHANGELOG
 
 **Aggiunto supporto a nuove estensioni**:
 
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
