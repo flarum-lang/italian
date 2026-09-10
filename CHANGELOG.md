@@ -2,6 +2,18 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+Cambiamenti: [2.0.2...2.0.3](https://github.com/flarum-lang/italian/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-08-30)
 ------------------
 
