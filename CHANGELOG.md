@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.5 (XXXX-XX-XX)
+-------------------
+
+**Aggiunto supporto a nuove estensioni**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+
+
+Cambiamenti: [1.19.4...1.19.5](https://github.com/flarum-lang/italian/compare/1.19.4...1.19.5).
+
+
 1.19.4 (2026-08-30)
 -------------------
 
