@@ -13,7 +13,7 @@ fof-impersonate:
   forum:
     modal:
       impersonate_username: 'Loggari come {username}'
-      label: 'Da un grande potere derivano grandi responsabilità. Continuando, diventerai {nome utente} finché non ti disconnetti.'
+      label: 'Da un grande potere derivano grandi responsabilità. Continuando, diventerai {username} finché non ti disconnetti.'
       placeholder_optional: '(Facoltativo) Fornisci il motivo del passaggio a questo utente'
       placeholder_required: 'È necessario fornire il motivo per il passaggio a questo utente prima di procedere'
       title: 'Loggati come altro utente'

@@ -21,7 +21,7 @@ fof-moderator-notes:
       delete: Cancella
       dismiss_button: Fatto
       filter_by_me: 'Solo le note che ho creato'
-      input_heading: 'Inserisci le tue note per <strong> {nome utente} </strong>, (il markdown è supportato)'
+      input_heading: 'Inserisci le tue note per <strong>{username}</strong>, (il markdown è supportato)'
       noNotes: 'Sembra che non ci siano note qui.'
       submit_button: 'Salva nota'
     no_content_given: 'Non è consentita una nota vuota.'
