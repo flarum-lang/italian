@@ -11,6 +11,14 @@ CHANGELOG
 * [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
 
 
+**Traduzioni aggiornate per le estensioni**:
+
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
 Cambiamenti: [2.0.2...2.0.3](https://github.com/flarum-lang/italian/compare/2.0.2...2.0.3).
 
 
