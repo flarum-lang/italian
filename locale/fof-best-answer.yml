@@ -56,7 +56,7 @@ fof-best-answer:
       solved_link: 'Discussioni Risolte'
       unsolved_link: 'Discussioni non risolte'
     notification:
-      awarded: 'Il tuo post è stato scelto come migliore risposta da {nome utente}'
+      awarded: 'Il tuo post è stato scelto come migliore risposta da {username}'
       best_answer_in_discussion: '{username} ha impostato la risposta migliore nella discussione'
       content: 'Seleziona una risposta migliore se la tua domanda ha ricevuto una risposta'
       preferences:
