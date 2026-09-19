@@ -10,6 +10,17 @@ CHANGELOG
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
 
 
+**Traduzioni aggiornate per le estensioni**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms)
+
+
 Cambiamenti: [1.19.4...1.19.5](https://github.com/flarum-lang/italian/compare/1.19.4...1.19.5).
 
 
