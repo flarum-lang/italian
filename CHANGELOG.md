@@ -2,6 +2,34 @@ CHANGELOG
 =========
 
 
+1.19.5 (XXXX-XX-XX)
+-------------------
+
+**Added support for new extensions**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (4 changed)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (1 changed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
+
+
+**Removed support for outdated extensions**:
+
+* [`justoverclock/flarum-ext-contactme`](https://github.com/justoverclockl/flarum-ext-contactme)
+
+
+All changes: [1.19.4...1.19.5](https://github.com/flarum-lang/italian/compare/1.19.4...1.19.5).
+
+
 1.19.4 (2026-08-30)
 -------------------
 
