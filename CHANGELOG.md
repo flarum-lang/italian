@@ -13,8 +13,10 @@ CHANGELOG
 
 **Updated translations for extensions**:
 
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
 * [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
 * [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
 * [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (1 changed)
 * [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
 
