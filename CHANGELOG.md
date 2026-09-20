@@ -8,6 +8,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
 
 
 **Updated translations for extensions**:
