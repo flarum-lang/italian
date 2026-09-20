@@ -2,6 +2,28 @@ CHANGELOG
 =========
 
 
+2.0.3 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
+* [`jslirola/flarum-ext-login2seeplus`](https://github.com/jslirola/flarum-ext-login2seeplus)
+
+
+**Updated translations for extensions**:
+
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed)
+* [`fof/links`](https://github.com/FriendsOfFlarum/links) (1 removed)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (1 changed)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
+
+
+All changes: [2.0.2...2.0.3](https://github.com/flarum-lang/italian/compare/2.0.2...2.0.3).
+
+
 2.0.2 (2026-08-30)
 ------------------
 
