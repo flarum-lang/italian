@@ -22,7 +22,6 @@ fof-links:
       use_rel_me: 'Aggiungere l''attributo <code>rel="me"</code> per la verifica dell''identità su altri siti'
       visibility:
         guest-only:
-          help: 'Solo {guest} può vedere questo link. Il permesso sopra dovrebbe essere impostato su ''{everyone}''.'
           label: 'Solo {guest}?'
         help: 'Per impostazione predefinita, i link sono visibili solo agli utenti <code>{admin}</code>. Modifica i permessi per specificare chi può vedere questo link.'
         help-disabled: 'Salvare il collegamento prima di modificare le impostazioni di visibilità.'
