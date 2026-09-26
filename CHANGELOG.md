@@ -7,19 +7,19 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks)
-* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification)
+* [`fof/bookmarks`](https://github.com/FriendsOfFlarum/bookmarks) (39% complete)
+* [`import-ai/flarum-webhook-notification`](https://github.com/import-ai/flarum-webhook-notification) (5% complete)
 
 
 **Updated translations for extensions**:
 
-* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed)
-* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed)
-* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed)
-* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (4 changed)
-* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed)
-* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (1 changed)
-* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed)
+* [`flarum/extension-manager`](https://github.com/flarum/extension-manager) (1 changed, 100% complete)
+* [`fof/ban-ips`](https://github.com/FriendsOfFlarum/ban-ips) (2 changed, 95% complete)
+* [`fof/best-answer`](https://github.com/FriendsOfFlarum/best-answer) (1 changed, 64% complete)
+* [`fof/byobu`](https://github.com/FriendsOfFlarum/byobu) (4 changed, 100% complete)
+* [`fof/impersonate`](https://github.com/FriendsOfFlarum/impersonate) (1 changed, 100% complete)
+* [`fof/moderator-notes`](https://github.com/FriendsOfFlarum/moderator-notes) (1 changed, 100% complete)
+* [`fof/terms`](https://github.com/FriendsOfFlarum/terms) (1 changed, 85% complete)
 
 
 **Removed support for outdated extensions**:
