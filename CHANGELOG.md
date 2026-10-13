@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+2.0.4 (2026-10-13)
+------------------
+
+**General changes**:
+
+* Updated Flarum core translations (33 added).
+
+
+All changes: [2.0.3...2.0.4](https://github.com/flarum-lang/italian/compare/2.0.3...2.0.4).
+
+
 2.0.3 (2026-09-30)
 ------------------
 
