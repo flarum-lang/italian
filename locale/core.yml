@@ -9,6 +9,19 @@ core:
       maintenance:
         bisect:
           help: 'Aiuta a identificare l''estensione che sta causando i problemi riscontrati. Questo mette automaticamente il forum in modalità manutenzione (bassa) finché il processo non è terminato.'
+    announcements:
+      about: 'Ultime notizie e annunci tratti dalla community ufficiale di Flarum su discuss.flarum.org.'
+      comments_label: '{count, plural, one {# commento} other {# commenti}}'
+      description: 'Ultime notizie e annunci dal team di Flarum.'
+      empty: 'Nessun annuncio trovato.'
+      hide: 'Nascondi annunci'
+      load_error: 'Impossibile caricare gli annunci. Riprova più tardi.'
+      read_more: 'Leggi di più'
+      refresh: 'Aggiorna annunci'
+      retry: 'Prova di nuovo'
+      show: 'Mostra annunci'
+      title: Annunci
+      view_all: 'Guarda tutto su discuss.flarum.org'
     appearance:
       colored_header_label: 'Header colorato'
       colors_heading: Colori
@@ -33,6 +46,12 @@ core:
       logo_text: 'Carica un''immagine da utilizzare al posto del nome del forum.'
       title: Aspetto
     basics:
+      abandoned_extensions_heading: 'Estensioni abbandonate'
+      abandoned_extensions_notify_admins_label: 'Invia un''email agli amministratori quando viene rilevata un''estensione appena abbandonata durante il controllo settimanale'
+      abandoned_extensions_sync_button: 'Controlla ora'
+      abandoned_extensions_sync_error: 'Impossibile recuperare l''elenco delle estensioni abbandonate. Riprova più tardi.'
+      abandoned_extensions_sync_success: 'Elenco delle estensioni abbandonate aggiornato. Trovata/e {count} estensione/i installata/e corrispondente/i.'
+      abandoned_extensions_text: 'Flarum gestisce un <a>elenco comunitario di estensioni abbandonate</a>. Quando un''estensione installata compare in tale elenco, verrà segnalata nel pannello di amministrazione.'
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Lingua predefinita'
       description: 'Imposta il titolo del forum, la lingua e altre impostazioni di base.'
@@ -61,6 +80,12 @@ core:
     dashboard:
       clear_cache_button: 'Pulisci cache'
       description: 'Il tuo forum a colpo d''occhio.'
+      info_button: 'Info sistema'
+      info_modal:
+        copy_button: Copia
+        copy_error: 'Copia fallita'
+        copy_success: 'Informazioni di sistema copiate'
+        title: 'Informazioni sistema'
       io_error_message: 'Impossibile scrivere nel filesystem. Controlla i permessi del tuo filesystem e riprova. Oppure prova a eseguire dalla riga di comando.'
       status:
         headers:
@@ -123,8 +148,11 @@ core:
       smtp_heading: 'Impostazioni SMTP'
       title: '=> core.ref.email'
     extension:
+      abandoned_no_replacement: 'Questa estensione non è più mantenuta dal suo autore e potrebbe non ricevere aggiornamenti.'
+      abandoned_with_replacement: 'Questa estensione è stata sostituita da {replacement}. Valuta la migrazione al pacchetto sostitutivo.'
       configure_scopes: 'Configura ambiti'
       confirm_purge: 'L''eliminazione rimuoverà tutte le voci del database e le risorse relative all''estensione. Non disinstallerà l''estensione; che deve essere fatto tramite Composer. Sei sicuro di voler continuare?'
+      deprecated: Deprecate
       disabled: Disabilitata
       enable_to_see: 'Abilita l''estensione per vedere e modificare le impostazioni.'
       enabled: Abilitata
@@ -144,6 +172,7 @@ core:
         button_label: LEGGIMI
         no_readme: 'Questa estensione non sembra avere un file README'
         title: '{extName} documentazione'
+      replaced: Rimpiazzata
     header:
       get_help: 'Chiedi aiuto'
       log_out_button: '=> core.ref.log_out'
@@ -160,6 +189,7 @@ core:
         discussion: Discussione
         feature: Funzionalità
         formatting: Formattazione
+        forum-widget: 'Widget del forum'
         language: Lingue
         moderation: Moderazione
         other: 'Altre estensioni'
@@ -255,6 +285,8 @@ core:
       must_not_be_array_message: 'Il filtro {filter} non deve essere un array.'
       must_not_be_multidimensional_array_message: 'Il filtro {filter} non deve essere un array multidimensionale.'
   email:
+    abandoned_extensions:
+      subject: 'Azione richiesta: rilevata/e estensione/i abbandonata/e'
     activate_account:
       subject: 'Attiva il tuo account'
     confirm_email:
@@ -484,6 +516,7 @@ core:
       dismiss_a11y_label: 'Ignora avviso'
     badge:
       hidden_tooltip: Nascosto
+    connection_restored_message: 'La tua connessione è stata ripristinata.'
     data_segment:
       label: '{label}:'
     datetime_formats:
@@ -513,7 +546,9 @@ core:
       generic_cross_origin_message: 'Ops! Qualcosa è andato storto durante una richiesta cross-origin. Ricarica la pagina e riprova.'
       generic_message: 'Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.'
       missing_dependencies_message: 'Non puoi attivare l''estensione {extension} finché non attiverai le seguenti estensioni: {extensions}'
+      network_message: 'Sembra esserci un problema con la tua connessione. Controlla la rete e riprova.'
       not_found_message: 'La risorsa richiesta non è stata trovata.'
+      offline_message: 'Sembra che tu sia offline. Controlla la connessione e riprova.'
       payload_too_large_message: 'Il payload richiesto era troppo grande.'
       permission_denied_message: 'Non hai il permesso di farlo.'
       rate_limit_exceeded_message: 'Stai scrivendo un po'' troppo in fretta. Riprova tra qualche secondo.'
@@ -616,6 +651,7 @@ core:
       csrf_token_mismatch: 'Sei stato inattivo per troppo tempo.'
       csrf_token_mismatch_return_link: 'Torna indietro e riprova'
       invalid_confirmation_token: 'Questo link di conferma è già stato usato oppure non è valido.'
+      method_not_allowed: 'Questa pagina non supporta quel metodo di richiesta.'
       not_authenticated: 'Non hai i permessi necessari per accedere a questa pagina. Riprova dopo aver effettuato l''accesso.'
       not_found: 'La pagina che hai richiesto non è stata trovata.'
       not_found_return_link: 'Ritorna su {forum}'
