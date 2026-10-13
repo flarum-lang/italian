@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.6 (2026-10-13)
+-------------------
+
+**General changes**:
+
+* Updated Flarum core translations (36 added).
+
+
+All changes: [1.19.5...1.19.6](https://github.com/flarum-lang/italian/compare/1.19.5...1.19.6).
+
+
 1.19.5 (2026-09-30)
 -------------------
 
