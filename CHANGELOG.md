@@ -2,6 +2,17 @@ CHANGELOG
 =========
 
 
+1.19.7 (2026-10-26)
+-------------------
+
+**Updated translations for extensions**:
+
+* [`clarkwinkelmann/flarum-ext-anonymous-posting`](https://github.com/clarkwinkelmann/flarum-ext-anonymous-posting) (1 changed, 88% complete)
+
+
+All changes: [1.19.6...1.19.7](https://github.com/flarum-lang/italian/compare/1.19.6...1.19.7).
+
+
 1.19.6 (2026-10-13)
 -------------------
 
