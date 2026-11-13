@@ -2,6 +2,25 @@ CHANGELOG
 =========
 
 
+2.0.6 (XXXX-XX-XX)
+------------------
+
+**Added support for new extensions**:
+
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (2% complete)
+* [`ernestdefoe/cadence`](https://github.com/ernestdefoe/cadence) (0% complete)
+* [`ernestdefoe/chronicle`](https://github.com/ernestdefoe/chronicle) (2% complete)
+* [`ernestdefoe/digest-mail`](https://github.com/ernestdefoe/digest-mail) (0% complete)
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (3% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (16% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
+* [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (1% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (1% complete)
+
+
+All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/italian/compare/2.0.5...2.0.6).
+
+
 2.0.5 (2026-10-26)
 ------------------
 
