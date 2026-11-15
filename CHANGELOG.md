@@ -5,6 +5,11 @@ CHANGELOG
 2.0.6 (XXXX-XX-XX)
 ------------------
 
+**General changes**:
+
+* Updated Day.js translations.
+
+
 **Added support for new extensions**:
 
 * [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (2% complete)
