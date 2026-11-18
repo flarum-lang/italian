@@ -20,7 +20,7 @@ CHANGELOG
 * [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (16% complete)
 * [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
 * [`huseyinfiliz/private-profile`](https://github.com/huseyinfiliz/private-profile) (1% complete)
-* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (1% complete)
+* [`huseyinfiliz/rewind`](https://github.com/huseyinfiliz/rewind) (0% complete)
 
 
 All changes: [2.0.5...2.0.6](https://github.com/flarum-lang/italian/compare/2.0.5...2.0.6).
