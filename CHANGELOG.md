@@ -10,6 +10,13 @@ CHANGELOG
 * Updated Day.js translations.
 
 
+**Added support for new extensions**:
+
+* [`fof/categories`](https://github.com/FriendsOfFlarum/categories) (3% complete)
+* [`fof/forum-stats-widget`](https://github.com/FriendsOfFlarum/forum-stats-widget) (16% complete)
+* [`huseyinfiliz/leaderboard`](https://github.com/huseyinfiliz/leaderboard) (1% complete)
+
+
 All changes: [1.19.7...1.19.8](https://github.com/flarum-lang/italian/compare/1.19.7...1.19.8).
 
 
