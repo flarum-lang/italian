@@ -1,44 +1,44 @@
 {
-    "name": "flarum-lang/italian",
-    "description": "Pacchetto in lingua Italiana per Flarum e relative estensioni.",
-    "type": "flarum-extension",
-    "keywords": ["extension", "flarum", "italian", "locale", "translation"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Marco Colia",
-            "email": "info@flarum.it",
-            "homepage": "https://flarum.it"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/flarum-lang/italian/issues",
-        "source": "https://github.com/flarum-lang/italian"
-    },
-    "require": {
-        "flarum/core": "^1.0.0"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-main": "1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Italiano",
-            "category": "language",
-            "info": {
-                "website": "https://flarum.it",
-                "support": "https://github.com/flarum-lang/italian/issues"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#fff",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "it",
-            "title": "Italiano"
-        }
-    }
+	"name": "flarum-lang/italian",
+	"description": "Italian Language Pack for Flarum",
+	"type": "flarum-extension",
+	"keywords": [
+		"flarum-locale"
+	],
+	"homepage": "https://github.com/flarum-lang/italian",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "justoverclockl",
+			"homepage": "https://github.com/justoverclockl",
+			"role": "Maintainer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/flarum-lang/italian/issues",
+		"forum": "https://discuss.flarum.org/d/40192",
+		"source": "https://github.com/flarum-lang/italian"
+	},
+	"require": {
+		"flarum/core": "^1.0.0"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Italian",
+			"category": "language",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#fff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "it",
+			"title": "Italiano"
+		}
+	}
 }
